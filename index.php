@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/syles.css">
+    <link rel="stylesheet" href="css/menuu.css">
 </head>
   <body>
       
@@ -49,6 +50,34 @@
           </form>
   </nav>
 </div>
+<div id="menu">
+        <ul class="nav">
+            <li><a href="">Productos</a>
+            <ul>
+                <li><a href="">Teclado</a></li>
+                <li><a href="">Mouse</a></li>
+                <li><a href="">Audifonos</a></li>
+                <li><a href="">Computadores</a></li>
+            </ul>
+            </li>
+            <li><a href="">Marcas</a>
+            <ul>
+                <li><a href="">Razer</a></li>
+                <li><a href="">Logitech</a></li>
+                <li><a href="">Redragon</a></li>
+            </ul>
+            </li>
+            <li><a href="">Esports</a>
+                <ul>
+                    <li><a href="">League of Legends</a></li>
+                    <li><a href="">Call of Duty:Warzone</a></li>
+                    <li><a href="">Minecraft</a></li>
+                    
+                </ul>
+            </li>
+
+        </ul>
+    </div>
     
   </body>
 </html>
