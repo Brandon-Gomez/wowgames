@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
-    
+    <link rel="stylesheet" href="css/menuu.css">
 </head>
   <body>
       
@@ -66,7 +66,9 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/0024291.png" class="d-block w-100" alt="...">
+      <video autoplayclass="d-block w-100" alt="...">
+        <source src="img/">
+      </video> 
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
