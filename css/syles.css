@@ -11,3 +11,22 @@ navbar-brand{
 .form-control {
     size: 4px;
 }
+
+ul li .bi-bi-cart3{
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.navbar .collapse ul li a svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+svg{
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
