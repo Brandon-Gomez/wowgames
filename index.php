@@ -67,7 +67,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <video autoplayclass="d-block w-100" alt="...">
-        <source src="img/">
+        <source src="img/hyperx.mp4">
       </video> 
     </div>
     <div class="carousel-item">
