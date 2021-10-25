@@ -10,11 +10,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/syles.css">
+<<<<<<< HEAD
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
     
+=======
+    <link rel="stylesheet" href="css/menuu.css">
+>>>>>>> 50f2579dcb3758d01f69ac5a9b497da44648b97d
 </head>
   <body>
       
@@ -85,6 +89,34 @@
   </button>
 </div>
 </div>
+<div id="menu">
+        <ul class="nav">
+            <li><a href="">Productos</a>
+            <ul>
+                <li><a href="">Teclado</a></li>
+                <li><a href="">Mouse</a></li>
+                <li><a href="">Audifonos</a></li>
+                <li><a href="">Computadores</a></li>
+            </ul>
+            </li>
+            <li><a href="">Marcas</a>
+            <ul>
+                <li><a href="">Razer</a></li>
+                <li><a href="">Logitech</a></li>
+                <li><a href="">Redragon</a></li>
+            </ul>
+            </li>
+            <li><a href="">Esports</a>
+                <ul>
+                    <li><a href="">League of Legends</a></li>
+                    <li><a href="">Call of Duty:Warzone</a></li>
+                    <li><a href="">Minecraft</a></li>
+                    
+                </ul>
+            </li>
+
+        </ul>
+    </div>
     
   </body>
 </html>
