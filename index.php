@@ -66,12 +66,12 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <video autoplayclass="d-block w-100" alt="...">
-        <source src="img/hyperx.mp4">
-      </video> 
+    <video width="320" height="240" autoplay>
+  <source src="razer.mp4" type="video/mp4">
+</video>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="..." class="d-block w-100" type="video/ogg" alt="...">
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
