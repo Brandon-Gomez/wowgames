@@ -66,8 +66,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <video width="320" height="240" autoplay>
-  <source src="razer.mp4" type="video/mp4">
+    <img src="img/0024291.png" class="d-block w-100" type="video/ogg" alt="...">
 </video>
     </div>
     <div class="carousel-item">
