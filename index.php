@@ -74,6 +74,7 @@
     <div class="carousel-item active">
     <img src="img/0024291.png" class="d-block w-100" type="video/ogg" alt="...">
 </video>
+      <img src="img/0024291.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" type="video/ogg" alt="...">
