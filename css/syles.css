@@ -42,7 +42,7 @@ label::after {
   display: block;
   height: 4px;
   width: 80%;
-  background-color: #F0AD4E;
+  background-color: #037d82;
   -webkit-transition: all 1s ease 0.5s;
   transition: all 1s ease 0.5s;
   border-radius: 5px;
@@ -55,7 +55,7 @@ label input {
   height: 27px;
   border: 1px;
   outline: none;
-  color: #b06d0f;
+  color: #037d82;
   border-radius: 4px;
 }
 label i {
