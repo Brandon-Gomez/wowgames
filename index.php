@@ -70,7 +70,7 @@
     <img src="img/0024291.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img/razer-opus-x-hero-desktop.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
