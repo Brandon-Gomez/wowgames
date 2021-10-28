@@ -15,6 +15,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
     <link rel="stylesheet" href="css/menuu.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
       
@@ -114,6 +115,40 @@
             </li>
 
         </ul>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="./img/ryzen.jpg">
+            <h4>Procesadores</h4>
+            <p>Computadores armados</p>
+            <a href="ryzen.php">Ver mas</a>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <img src="./img/logi.png" alt="">
+                <h4>Mouse,teclados y mas</h4>
+                <p></p>
+                <a href="logitech.php">Ver mas</a>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="./img/hyperx.jpg" alt="">
+                    <h4>Teclados</h4>
+                    <p></p>
+                    <a href="hyperx.php">Ver mas</a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
     </div>
     
   </body>
