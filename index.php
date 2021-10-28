@@ -18,11 +18,11 @@
     
 </head>
   <body>
-  <br>
-    <div class="alert alert-success">
+  <!--<br>
+     <div class="alert alert-success">
         Pantalla de mensaje.....
         <a href="#" class="badge bg-success">Ver carrito</a>
-    </div>
+    </div> -->
       
 
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark" height="4px">
