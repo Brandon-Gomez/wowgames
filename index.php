@@ -15,6 +15,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
     <link rel="stylesheet" href="css/menuu.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
       
