@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
-    <link rel="stylesheet" href="css/menuu.css">
     
 </head>
-  <body>
+<body>
   <!--<br>
      <div class="alert alert-success">
         Pantalla de mensaje.....
@@ -25,7 +24,7 @@
     </div> -->
       
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" height="4px">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark" height="4px">
       <a class="navbar-brand" href="index.php" alt="logo"> <img src="img/logo_transparente.png" width="120px" alt="logo"></a>
       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
           aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -64,6 +63,7 @@
               </li>
           </ul>                                     
   </nav>
+<main class="contenedor">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -72,8 +72,6 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <img src="img/0024291.png" class="d-block w-100" type="video/ogg" alt="...">
-</video>
       <img src="img/0024291.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
@@ -91,36 +89,15 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
-</div>
-<div id="menu">
-        <ul class="nav">
-            <li><a href="">Productos</a>
-            <ul>
-                <li><a href="">Teclado</a></li>
-                <li><a href="">Mouse</a></li>
-                <li><a href="">Audifonos</a></li>
-                <li><a href="">Computadores</a></li>
-            </ul>
-            </li>
-            <li><a href="">Marcas</a>
-            <ul>
-                <li><a href="">Razer</a></li>
-                <li><a href="">Logitech</a></li>
-                <li><a href="">Redragon</a></li>
-            </ul>
-            </li>
-            <li><a href="">Esports</a>
-                <ul>
-                    <li><a href="">League of Legends</a></li>
-                    <li><a href="">Call of Duty:Warzone</a></li>
-                    <li><a href="">Minecraft</a></li>
-                    
-                </ul>
-            </li>
 
-        </ul>
-    </div>
- 
-  </body>
+
+
+
+
+
+</div>
+</div>
+</main>
+<script src="main.js"></script>
+</body>
 </html>

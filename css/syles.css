@@ -1,7 +1,19 @@
-
-navbar-brand{
-    width: 60px;
+body{
+  background-color: #EAEDED;
+  font-family: Arial, Helvetica, sans-serif;
 }
+a{
+  text-decoration: none;
+}
+.contenedor{
+
+}
+
+#menu ul{
+  width: 80%;
+  margin: 0;
+}
+
 .form-control {
     size: 4px;
 }
@@ -24,6 +36,8 @@ svg{
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
+/* BUSCADOR */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
 
@@ -92,3 +106,5 @@ label[data-state="close"] input {
 .bg-dark {
     background-color: #0b0c0c!important;
 }
+
+
