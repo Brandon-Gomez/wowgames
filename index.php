@@ -15,6 +15,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
     
+    <link rel="stylesheet" href="css/menuu.css">
 </head>
   <body>
       
@@ -33,7 +34,8 @@
     </form><a style="font-size: 8pt; text-decoration: none" target="_blank" href="http://www.frontendfreecode.com"></a>      
     <script>var app = new Vue({
         el: '#app',
-        data: { state: "close" } 
+        data: { state: "close" },
+        data: { state: "mamguevo" } 
     });
     </script>   
               <li class="nav-item">
@@ -75,10 +77,28 @@
       <img src="..." class="d-block w-100" alt="...">
     </div>
   </div>
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video autoplayclass="d-block w-100" alt="...">
+        <source src="img/">
+      </video> 
+    </div>
+
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+</div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
+
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
@@ -86,5 +106,39 @@
 </div>
 </div>
     
+
+</div>
+</div>
+
+<div id="menu">
+        <ul class="nav">
+            <li><a href="">Productos</a>
+            <ul>
+                <li><a href="">Teclado</a></li>
+                <li><a href="">Mouse</a></li>
+                <li><a href="">Audifonos</a></li>
+                <li><a href="">Computadores</a></li>
+            </ul>
+            </li>
+            <li><a href="">Marcas</a>
+            <ul>
+                <li><a href="">Razer</a></li>
+                <li><a href="">Logitech</a></li>
+                <li><a href="">Redragon</a></li>
+            </ul>
+            </li>
+            <li><a href="">Esports</a>
+                <ul>
+                    <li><a href="">League of Legends</a></li>
+                    <li><a href="">Call of Duty:Warzone</a></li>
+                    <li><a href="">Minecraft</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+
+
   </body>
 </html>
