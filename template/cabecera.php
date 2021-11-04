@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WowGames</title>
-    <link  rel = " stylesheet " href = "../css/stilos.css" >
+    <link  rel = " stylesheet " href = "./css/stilos.css" >
 
 
 </head>
 <body>
 
-<nav  class = " menu " id = " menu " >
-		<div  class = " contenedor contenedor-botones-menu " >
-			<button  id = " btn-menu-barras " class = " btn-menu-barras " > <i  class = " fas fa-bars " > </i > </button >
-			<button  id = " btn-menu-cerrar " class = " btn-menu-cerrar " > <i  class = " fas fa-times " > </i > </button >
+<nav class = "menu" id = "menu" >
+		<div class = " contenedor contenedor-botones-menu " >
+			<button  id = "btn-menu-barras " class = "btn-menu-barras " > <i  class = "fas fa-bars " > </i > </button >
+			<button  id = "btn-menu-cerrar " class = "btn-menu-cerrar " > <i  class = "fas fa-times " > </i > </button >
 		</div >
 
-		<div  class = " contenedor contenedor-enlaces-nav " >
+		<div  class = "contenedor contenedor-enlaces-nav" >
 			<div  class = " btn-departamentos " id = " btn-departamentos " >
-				<p > Todos los <span > productos </span > </p >
+				<p >Todos los<span >productos</span > </p >
 				<i  class = " fas fa-caret-down " > </i >
 			</div >
 
-			<div  class = " enlaces " >
-				<Un  href = " # " > Cuenta </a >
-				<Un  href = " # " > Promociones </a >
-				<Un  href = " # " > Mesa de Regalos </a >
-				<Un  href = " # " > Ayuda </a >
-			</div >
+			<div class = "enlaces " >
+				<Un href = " # " >Cuenta </a >
+				<Un href = " # " >Promociones </a >
+				<Un href = " # " >Mesa de Regalos </a >
+				<Un  href = " # " >Ayuda </a >
+</div >
 		</div >
+
+<!--
 
 		<div  class = " contenedor contenedor-grid " >
 			<div  class = " grid " id = " grid " >
@@ -275,14 +277,14 @@
 					</div >
 				</div >
 			</div >
-		</div >
+		</div >-->
 	</nav >
 
 
 
 
 <main  class = " contenedor " >
-		<artículo > </artículo>
+		<article ></article>
 	</main>
 	
 	<script  src = " https://kit.fontawesome.com/2c36e9b7b1.js " > </script>
