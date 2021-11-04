@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WowGames</title>
+    <link  rel = " stylesheet " href = "../css/stilos.css" >
+
+
+</head>
+<body>
+
+<nav  class = " menu " id = " menu " >
+		<div  class = " contenedor contenedor-botones-menu " >
+			<button  id = " btn-menu-barras " class = " btn-menu-barras " > <i  class = " fas fa-bars " > </i > </button >
+			<button  id = " btn-menu-cerrar " class = " btn-menu-cerrar " > <i  class = " fas fa-times " > </i > </button >
+		</div >
+
+		<div  class = " contenedor contenedor-enlaces-nav " >
+			<div  class = " btn-departamentos " id = " btn-departamentos " >
+				<p > Todos los <span > productos </span > </p >
+				<i  class = " fas fa-caret-down " > </i >
+			</div >
+
+			<div  class = " enlaces " >
+				<Un  href = " # " > Cuenta </a >
+				<Un  href = " # " > Promociones </a >
+				<Un  href = " # " > Mesa de Regalos </a >
+				<Un  href = " # " > Ayuda </a >
+			</div >
+		</div >
+
+		<div  class = " contenedor contenedor-grid " >
+			<div  class = " grid " id = " grid " >
+				<div  class = " categorias " >
+					<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+					<h3  class = " subtitulo " > Categorias </h3 >
+
+					<Un  href = " # " de datos-categoria =" tecnologia-y-computadoras " > Tecnología y Computadoras <i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" libros " > 1 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" Ropa-y-accesorios " > 2<i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" hogar-y-cocina " > 3 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" juegos-y-juguetes " > 4<i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" salud-y-belleza " >5<i  clase =" fas fa-ángulo-derecho " > </i > </una >
+					<Un  href = " # " de datos-categoria =" Alimentos-y-bebidas " > 6 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
+				</div >
+
+				<div  class = " contenedor-subcategorias " >
+					<div  class = " subcategoria " data-categoria = " tecnologia-y-computadoras " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > Tecnología y Computadoras </h3 >
+							<Un  href = " # " > Portátiles </a >
+							<Un  href = " # " > Tabletas </a >
+							<Un  href = " # " > Computadoras de Escritorio </a >
+							<Un  href = " # " > Monitores </a >
+							<Un  href = " # " > Componentes </a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/tecnologia-banner-1.png " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/tecnologia-galeria-1.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/tecnologia-galeria-2.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/tecnologia-galeria-3.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/tecnologia-galeria-4.png " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					<div  class = " subcategoria " data-categoria = " libros " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > 1 </ h3 >
+							<Un  href = " # " > Los más vendidos </a >
+							<Un  href = " # " > 3 </a >
+							<Un  href = " # " > 4 </a >
+							<Un  href = " # " > 5 </a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/libros-banner-1.png " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " #cualquierimg " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					<div  class = " subcategoria " data-categoria = " ropa-y-accesorios " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > intel</h3 >
+							<Un  href = " # " > 1 </a >
+							<Un  href = " # " > 2 </a >
+							<Un  href = " # " > 3 </a >
+							<Un  href = " # " > 4 </a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/ropa-banner-1.png " alt = "" >
+							</a >
+						</div >
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/ropa-galeria-1.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/ropa-galeria-2.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/ropa-galeria-3.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/ropa-galeria-4.png " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					<div  class = " subcategoria " data-categoria = " hogar-y-cocina " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > ryzen </h3 >
+							<Un  href = " # " > 1 </a >
+							<Un  href = " # " > 2 </a >
+							<Un  href = " # " >  3</a >
+							<Un  href = " # " > 4</a >
+							<Un  href = " # " > 5 </a >
+							<Un  href = " # " > 6 </a >
+							<Un  href = " # " > 7 </a >
+							<Un  href = " # " > 8 </a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/hogar-banner-1.png " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/hogar-galeria-1.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/hogar-galeria-2.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/hogar-galeria-3.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/hogar-galeria-4.png " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					<div  class = " subcategoria " data-categoria = " juegos-y-juguetes " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > Juegos  </h3 >
+							<Un  href = " # " > 1</a >
+							<Un  href = " # " > 2</a >
+							<Un  href = " # " > 3 </a >
+							<Un  href = " # " > 4</a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/juegos-banner-1.png " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " ./img/juegos-galeria-1.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/juegos-galeria-2.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/juegos-galeria-3.png " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " ./img/juegos-galeria-4.png " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					<div  class = " subcategoria " data-categoria = " hyperx " >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > hyperx </h3 >
+							<Un  href = " # " > 1 </a >
+							<Un  href = " # " > 2 </a >
+							<Un  href = " # " > 3 </a >
+							<Un  href = " # " > 4</a >
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " img " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+						</div >
+					</div >
+
+					 <div  class = " subcategoria " data-categoria = " redragon" >
+						<div  class = " enlaces-subcategoria " >
+							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+							<h3  class = " subtitulo " > redragon </h3 >
+							<Un  href = " # " > 1 </a >
+							<Un  href = " # " > 2 </a >
+
+						</div >
+
+						<div  class = " banner-subcategoria " >
+							<Un  href = " # " >
+								<img  src = "  " alt = "" >
+							</a >
+						</div >
+
+						<div  class = " galeria-subcategoria " >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+							<Un  href = " # " >
+								<img  src = " # " alt = "" >
+							</a >
+						</div >
+					</div >
+				</div >
+			</div >
+		</div >
+	</nav >
+
+
+
+
+<main  class = " contenedor " >
+		<artículo > </artículo>
+	</main>
+	
+	<script  src = " https://kit.fontawesome.com/2c36e9b7b1.js " > </script>
+	<script  src = " main.js " > </script >
