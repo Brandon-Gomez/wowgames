@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WowGames</title>
-    <link  rel = " stylesheet " href = "./css/stilos.css" >
+    <link  rel = " stylesheet " href = "./css/styles.css" >
 
 
 </head>
@@ -19,16 +19,16 @@
 
 		<div  class = "contenedor contenedor-enlaces-nav" >
 			<div  class = " btn-departamentos " id = " btn-departamentos " >
-				<p >Todos los<span >productos</span > </p >
+				<p >Todos los <span >productos</span > </p >
 				<i  class = " fas fa-caret-down " > </i >
 			</div >
 
 			<div class = "enlaces " >
-				<Un href = " # " >Cuenta </a >
-				<Un href = " # " >Promociones </a >
-				<Un href = " # " >Mesa de Regalos </a >
-				<Un  href = " # " >Ayuda </a >
-</div >
+				<a href = " # " >Promociones </a >
+				<a href = " # " >Mesa de Regalos </a >
+				<a href = " # " >Ayuda </a >
+				<a href = " # " >Cuenta </a >
+			</div >
 		</div >
 
 <!--
