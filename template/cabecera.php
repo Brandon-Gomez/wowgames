@@ -58,7 +58,7 @@
 
 						<div  class = "banner-subcategoria" >
 							<a  href = "#" >
-								<img src = "../img/LogitechG-B.png" alt = "" >
+								<img src = "img/LogitechG-B.png" alt = "" >
 							</a >
 						</div >
 
