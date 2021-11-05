@@ -43,22 +43,22 @@
 					<a href="#" data-categoria="redragon"> Redragon <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="ryzen"> Ryzen <i class="fas fa-angle-right"></i></a>
 				</div>
-				<!--
-				<div  class = " contenedor-subcategorias " >
-					<div  class = " subcategoria " data-categoria = " tecnologia-y-computadoras " >
-						<div  class = " enlaces-subcategoria " >
-							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
-							<h3  class = " subtitulo " > Tecnología y Computadoras </h3 >
-							<Un  href = " # " > Portátiles </a >
-							<Un  href = " # " > Tabletas </a >
-							<Un  href = " # " > Computadoras de Escritorio </a >
-							<Un  href = " # " > Monitores </a >
-							<Un  href = " # " > Componentes </a >
+				
+				<div  class = "contenedor-subcategorias" >
+					<div  class = "subcategoria" data-categoria = "logitech" >
+						<div  class = "enlaces-subcategoria" >
+							<button  class = "btn-regresar" > <i  class = "fas fa-arrow-left" > </i > Regresar </button >
+							<h3  class = "subtitulo" > Logitech </h3 >
+							<a  href = "#" > Portátiles </a >
+							<a  href = " # " > Tabletas </a >
+							<a  href = " # " > Computadoras de Escritorio </a >
+							<a  href = " # " > Monitores </a >
+							<a  href = " # " > Componentes </a >
 						</div >
 
-						<div  class = " banner-subcategoria " >
-							<Un  href = " # " >
-								<img  src = " ./img/tecnologia-banner-1.png " alt = "" >
+						<div  class = "banner-subcategoria" >
+							<a  href = "#" >
+								<img src = "../img/LogitechG-B.png" alt = "" >
 							</a >
 						</div >
 
@@ -77,7 +77,7 @@
 							</a >
 						</div >
 					</div >
-
+<!--
 					<div  class = " subcategoria " data-categoria = " libros " >
 						<div  class = " enlaces-subcategoria " >
 							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
