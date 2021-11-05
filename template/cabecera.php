@@ -12,12 +12,11 @@
 <body>
 
 <nav class = "menu" id = "menu" >
-		<div class = " contenedor contenedor-botones-menu " >
+	<div class = " contenedor contenedor-botones-menu " >
 			<button  id = "btn-menu-barras " class = "btn-menu-barras " > <i  class = "fas fa-bars " > </i > </button >
 			<button  id = "btn-menu-cerrar " class = "btn-menu-cerrar " > <i  class = "fas fa-times " > </i > </button >
-		</div >
-
-		<div  class = "contenedor contenedor-enlaces-nav" >
+	</div >
+	<div  class = "contenedor contenedor-enlaces-nav" >
 			<div  class = " btn-departamentos " id = " btn-departamentos " >
 				<p >Todos los <span >productos</span > </p >
 				<i  class = " fas fa-caret-down " > </i >
@@ -29,25 +28,20 @@
 				<a href = " # " >Ayuda </a >
 				<a href = " # " >Cuenta </a >
 			</div >
-		</div >
+	</div >
 
+	<div  class = "contenedor contenedor-grid" >
+		<div  class = "grid" id = "grid" >
+			<div  class = "categorias" >
+				<button  class = "btn-regresar" > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
+				<h3  class = "subtitulo" > Categorias </h3 >
+				<a  href = "#" data-categoria ="logitech"> Logitech <i class ="fas fa-angle-right"></i ></a >
+				<a  href = "#" data-categoria ="hyperx"  > HyperX   <i class ="fas fa-angle-right"></i ></a >
+				<a  href = "#" data-categoria ="razer"   > Razer  	<i class ="fas fa-angle-right"></i ></a >
+				<a  href = "#" data-categoria ="redragon"> Redragon <i class ="fas fa-angle-right"></i ></a >
+				<a  href = "#" data-categoria ="ryzen"   > Ryzen 	<i class ="fas fa-angle-right"></i ></a >
+			</div >
 <!--
-
-		<div  class = " contenedor contenedor-grid " >
-			<div  class = " grid " id = " grid " >
-				<div  class = " categorias " >
-					<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
-					<h3  class = " subtitulo " > Categorias </h3 >
-
-					<Un  href = " # " de datos-categoria =" tecnologia-y-computadoras " > Tecnología y Computadoras <i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" libros " > 1 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" Ropa-y-accesorios " > 2<i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" hogar-y-cocina " > 3 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" juegos-y-juguetes " > 4<i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" salud-y-belleza " >5<i  clase =" fas fa-ángulo-derecho " > </i > </una >
-					<Un  href = " # " de datos-categoria =" Alimentos-y-bebidas " > 6 <i  clase =" fas fa-ángulo-derecho " > </i > </una >
-				</div >
-
 				<div  class = " contenedor-subcategorias " >
 					<div  class = " subcategoria " data-categoria = " tecnologia-y-computadoras " >
 						<div  class = " enlaces-subcategoria " >
