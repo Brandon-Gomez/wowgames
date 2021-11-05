@@ -230,6 +230,7 @@ footer{
    justify-content:center;
    flex-direction: column;
    text-align: center;
+   height: 180px;
 
 }
 .footer-content h3{
@@ -292,6 +293,7 @@ color: aqua;
    margin: auto;
    width: 170px;
    margin-bottom: -50px;
+   margin-top: -40px;
 }
 
 
