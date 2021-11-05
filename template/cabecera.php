@@ -77,7 +77,7 @@
 							</a >
 						</div >
 					</div >
-<!--
+	<!--
 					<div  class = " subcategoria " data-categoria = " libros " >
 						<div  class = " enlaces-subcategoria " >
 							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
@@ -285,3 +285,19 @@
 
 	<script src=" https://kit.fontawesome.com/2c36e9b7b1.js "> </script>
 	<script src=" main.js "> </script>
+    <footer>
+        <div class="footer-content">
+          
+         <img src="img/logo_transparent.png" alt="" class="imgfoot">
+          <ul class="socials">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2021 Wowgames. Reservados todos los derechos. Designed By <span>TPS 109</span></p>
+        </div>
+    </footer>
+	</body>
+</html>
