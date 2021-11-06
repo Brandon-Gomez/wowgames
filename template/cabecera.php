@@ -7,8 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WowGames</title>
 	<link rel=" stylesheet " href="./css/styles.css">
-
-
 </head>
 
 <body>
@@ -28,7 +26,7 @@
 				<a href=" # ">Promociones </a>
 				<a href=" # ">Mesa de Regalos </a>
 				<a href=" # ">Ayuda </a>
-				<a href=" # ">Cuenta </a>
+				<a href="cuenta.html">Cuenta </a>
 			</div>
 		</div>
 
