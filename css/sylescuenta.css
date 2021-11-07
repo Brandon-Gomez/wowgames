@@ -5,8 +5,7 @@
  }
 
  body {
-    font-family: 'Spartan', sans-serif;
-    font-weight: 300;
+    font-weight: 300 !important;
     color: var(--light) !important;
  }
 
@@ -23,10 +22,10 @@
     line-height: initial;
 }
 
-
-p{
-    font-weight: normal !important;
+.text-light {
+    font-weight: 600;
 }
-#nocount{
-    font-weight: normal !important;
+
+.img-fluid{
+    height: 100px;
 }
