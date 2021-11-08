@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WowGames</title>
+
 	<link rel=" stylesheet " href="./css/styles.css">
 
 
@@ -14,7 +15,7 @@
 <body>
 
 	<nav class="menu" id="menu">
-		<div class=" contenedor contenedor-botones-menu ">
+		<div class="contenedor contenedor-botones-menu ">
 			<button id="btn-menu-barras " class="btn-menu-barras "> <i class="fas fa-bars "> </i> </button>
 			<button id="btn-menu-cerrar " class="btn-menu-cerrar "> <i class="fas fa-times "> </i> </button>
 		</div>
@@ -36,7 +37,7 @@
 			<div class="grid" id="grid">
 				<div class="categorias">
 					<button class="btn-regresar"> <i class=" fas fa-arrow-left "> </i> Regresar </button>
-					<h3 class="subtitulo"> Categorias </h3>
+					<h3 class="subtitulo">Categorias </h3>
 					<a href="#" data-categoria="logitech"> Logitech <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="hyperx"> HyperX <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer"> Razer <i class="fas fa-angle-right"></i></a>
@@ -45,35 +46,35 @@
 				</div>
 				
 				<div  class = "contenedor-subcategorias" >
-					<div  class = "subcategoria" data-categoria = "logitech" >
-						<div  class = "enlaces-subcategoria" >
+					<div  class = "subcategoria activo" data-categorias = "logitech" >
+						<div  class = "enlaces-subcategorias" >
 							<button  class = "btn-regresar" > <i  class = "fas fa-arrow-left" > </i > Regresar </button >
 							<h3  class = "subtitulo" > Logitech </h3 >
-							<a  href = "#" > Portátiles </a >
-							<a  href = " # " > Tabletas </a >
-							<a  href = " # " > Computadoras de Escritorio </a >
-							<a  href = " # " > Monitores </a >
+							<a  href = "#" > mause </a >
+							<a  href = " # " > teclado </a >
+							<a  href = " # " > audifonos</a >
+							<a  href = " # " > equpos de sonido</a >
 							<a  href = " # " > Componentes </a >
 						</div >
 
 						<div  class = "banner-subcategoria" >
 							<a  href = "#" >
-								<img src = "img/LogitechG-B.png" alt = "" >
+								<img src = "./img/logitech/logitech1.png" alt = "" >
 							</a >
 						</div >
 
-						<div  class = " galeria-subcategoria " >
+						<div  class = " galeria-subcategoria" >
 							<Un  href = " # " >
-								<img  src = " ./img/tecnologia-galeria-1.png " alt = "" >
+								<img  src = "./img/logitech/Logitech2.png" alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = " ./img/tecnologia-galeria-2.png " alt = "" >
+								<img  src = "./img/logitech/logitech3.png " alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = " ./img/tecnologia-galeria-3.png " alt = "" >
+								<img  src = "./img/logitech/logitech4.png" alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = " ./img/tecnologia-galeria-4.png " alt = "" >
+								<img  src = "./img/logitech/logitech5.png" alt = "" >
 							</a >
 						</div >
 					</div >
@@ -274,8 +275,11 @@
 				</div >
 			</div >
 		</div >-->
-	</nav>
+		
 
+
+
+	</nav>
 
 
 
@@ -285,3 +289,9 @@
 
 	<script src=" https://kit.fontawesome.com/2c36e9b7b1.js "> </script>
 	<script src=" main.js "> </script>
+	
+
+
+	 
+  
+   

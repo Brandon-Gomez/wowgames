@@ -20,8 +20,8 @@ text-decoration: none;
 
 .contenedor{
 margin: auto;
-width: 80%;
-max-width: 1300px;
+width: 90%;
+max-width: 1000px;
 }
 
 
@@ -205,4 +205,51 @@ display: inline-block;
 .grid .categorias a:hover i {
    display: inline-block;
 }
+
+
+/*subcategorias*/
+
+.grid .contenedor-subcategorias{
+
+grid-area: subcategorias;
+
+}
+
+
+
+.grid .subcategoria{
+
+   
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr;
+   height: 100%;
+}
+
+.grid .subcategoria .activo{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
