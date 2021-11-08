@@ -6,14 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>WowGames</title>
-
 	<link rel=" stylesheet " href="./css/styles.css">
 
-
 </head>
-
 <body>
-
 	<nav class="menu" id="menu">
 		<div class="contenedor contenedor-botones-menu ">
 			<button id="btn-menu-barras " class="btn-menu-barras "> <i class="fas fa-bars "> </i> </button>
@@ -26,17 +22,17 @@
 			</div>
 
 			<div class="enlaces ">
-				<a href=" # ">Promociones </a>
-				<a href=" # ">Mesa de Regalos </a>
-				<a href=" # ">Ayuda </a>
-				<a href=" # ">Cuenta </a>
+				<a href="# ">Promociones </a>
+				<a href="# ">Mesa de Regalos </a>
+				<a href="# ">Ayuda </a>
+				<a href="cuenta.html">Cuenta </a>
 			</div>
 		</div>
 
 		<div class="contenedor contenedor-grid">
 			<div class="grid" id="grid">
 				<div class="categorias">
-					<button class="btn-regresar"> <i class=" fas fa-arrow-left "> </i> Regresar </button>
+					<button class="btn-regresar"><i class=" fas fa-arrow-left "></i> Regresar </button>
 					<h3 class="subtitulo">Categorias </h3>
 					<a href="#" data-categoria="logitech"> Logitech <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="hyperx"> HyperX <i class="fas fa-angle-right"></i></a>
@@ -46,20 +42,20 @@
 				</div>
 				
 				<div  class = "contenedor-subcategorias" >
-					<div  class = "subcategoria activo" data-categorias = "logitech" >
-						<div  class = "enlaces-subcategorias" >
-							<button  class = "btn-regresar" > <i  class = "fas fa-arrow-left" > </i > Regresar </button >
+					<div class = "subcategoria activo" data-categorias = "logitech" >
+						<div class = "enlaces-subcategorias" >
+							<button  class = "btn-regresar" ><i  class = "fas fa-arrow-left" ></i >Regresar </button >
 							<h3  class = "subtitulo" > Logitech </h3 >
 							<a  href = "#" > mause </a >
-							<a  href = " # " > teclado </a >
-							<a  href = " # " > audifonos</a >
-							<a  href = " # " > equpos de sonido</a >
-							<a  href = " # " > Componentes </a >
+							<a  href = "# " > teclado </a >
+							<a  href = "# " > audifonos</a >
+							<a  href = "# " > equpos de sonido</a >
+							<a  href = "# " > Componentes </a >
 						</div >
 
 						<div  class = "banner-subcategoria" >
 							<a  href = "#" >
-								<img src = "./img/logitech/logitech1.png" alt = "" >
+								<img src = "./img/logitech/logitech1.png"  alt = "">
 							</a >
 						</div >
 
@@ -78,8 +74,8 @@
 							</a >
 						</div >
 					</div >
-<!--
-					<div  class = " subcategoria " data-categoria = " libros " >
+	
+				<!--	<div  class = " subcategoria " data-categoria = " libros " >
 						<div  class = " enlaces-subcategoria " >
 							<button  class = " btn-regresar " > <i  class = " fas fa-arrow-left " > </i > Regresar </button >
 							<h3  class = " subtitulo " > 1 </ h3 >
@@ -289,9 +285,28 @@
 
 	<script src=" https://kit.fontawesome.com/2c36e9b7b1.js "> </script>
 	<script src=" main.js "> </script>
+
 	
 
 
 	 
   
    
+
+    <footer>
+        <div class="footer-content">
+          
+         <img src="img/logo_transparent.png" alt="" class="imgfoot">
+          <ul class="socials">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2021 Wowgames. Reservados todos los derechos. Designed By <span>TPS 109</span></p>
+        </div>
+    </footer>
+	</body>
+</html>
+
