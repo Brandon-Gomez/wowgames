@@ -288,12 +288,10 @@
 
 	
 
-
-	 
-  
-   
-
-    <footer>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<footer>
         <div class="footer-content">
           
          <img src="img/logo_transparent.png" alt="" class="imgfoot">
@@ -307,6 +305,10 @@
           <p>&copy; 2021 Wowgames. Reservados todos los derechos. Designed By <span>TPS 109</span></p>
         </div>
     </footer>
-	</body>
+
+</body>
+
 </html>
 
+
+	
