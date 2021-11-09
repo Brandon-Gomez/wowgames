@@ -16,9 +16,9 @@
 			<button id="btn-menu-cerrar " class="btn-menu-cerrar "> <i class="fas fa-times "> </i> </button>
 		</div>
 		<div class="contenedor contenedor-enlaces-nav">
-			<div class=" btn-departamentos " id=" btn-departamentos ">
-				<p>Todos los <span>productos</span> </p>
-				<i class=" fas fa-caret-down "> </i>
+			<div class="btn-departamentos " id="btn-departamentos ">
+				<p>Todos los <span>productos</span></p>
+				<i class=" fas fa-caret-down "></i>
 			</div>
 
 			<div class="enlaces ">
@@ -30,10 +30,10 @@
 		</div>
 
 		<div class="contenedor contenedor-grid">
-			<div class="grid" id="grid">
+			<div class="grid activo" id="grid">
 				<div class="categorias">
 					<button class="btn-regresar"><i class=" fas fa-arrow-left "></i> Regresar </button>
-					<h3 class="subtitulo">Categorias </h3>
+					<h3 class="subtitulo">Categorias</h3>
 					<a href="#" data-categoria="logitech"> Logitech <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="hyperx"> HyperX <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer"> Razer <i class="fas fa-angle-right"></i></a>
@@ -42,35 +42,35 @@
 				</div>
 				
 				<div  class = "contenedor-subcategorias" >
-					<div class = "subcategoria activo" data-categorias = "logitech" >
-						<div class = "enlaces-subcategorias" >
+					<div class = "subcategoria activo" data-categoria = "logitech" >
+						<div class = "enlaces-subcategoria" >
 							<button  class = "btn-regresar" ><i  class = "fas fa-arrow-left" ></i >Regresar </button >
 							<h3  class = "subtitulo" > Logitech </h3 >
 							<a  href = "#" > mause </a >
 							<a  href = "# " > teclado </a >
 							<a  href = "# " > audifonos</a >
-							<a  href = "# " > equpos de sonido</a >
+							<a  href = "# " > equipos de sonido</a >
 							<a  href = "# " > Componentes </a >
 						</div >
 
 						<div  class = "banner-subcategoria" >
 							<a  href = "#" >
-								<img src = "./img/logitech/logitech1.png"  alt = "">
+								<img src = "./img/logitech1.png"  alt = "">
 							</a >
 						</div >
 
-						<div  class = " galeria-subcategoria" >
+						<div  class = "galeria-subcategoria" >
 							<Un  href = " # " >
-								<img  src = "./img/logitech/Logitech2.png" alt = "" >
+								<img  src = "./img/Logitech2.png" alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = "./img/logitech/logitech3.png " alt = "" >
+								<img  src = "./img/logitech3.png " alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = "./img/logitech/logitech4.png" alt = "" >
+								<img  src = "./img/logitech4.png" alt = "" >
 							</a >
 							<Un  href = " # " >
-								<img  src = "./img/logitech/logitech5.png" alt = "" >
+								<img  src = "./img/logitech5.png" alt = "" >
 							</a >
 						</div >
 					</div >
