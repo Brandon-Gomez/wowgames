@@ -11,7 +11,7 @@
 <footer>
         <div class="footer-content">
           
-         <img src="img/logo_transparent.png" alt="" class="imgfoot">
+         <img src="img/wowgames_logo.svg" alt="" class="imgfoot">
           <ul class="socials">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
