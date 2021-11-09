@@ -29,3 +29,20 @@
 .img-fluid{
     height: 100px;
 }
+
+.img-1 {
+    background-image: url('../img/logitech/EnJg-JxXUAU1YME.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.img-2 {
+    background-image: url('../img/hyperx/hx-family-mouse-pulsefire-raid-lg.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.img-3 {
+    background-image: url('../img/razer/Actualidad_383225445_130486350_1200x800.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
