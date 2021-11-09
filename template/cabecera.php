@@ -287,27 +287,6 @@
 
 	<script src=" https://kit.fontawesome.com/2c36e9b7b1.js "> </script>
 	<script src=" main.js "> </script>
-
-	
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<footer>
-        <div class="footer-content">
-          
-         <img src="../img/wowgames_logo.svg" alt="" class="img-fluid imgfoot">
-          <ul class="socials">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          </ul>
-        </div>
-        <div class="footer-bottom">
-          <p>&copy; 2021 Wowgames. Reservados todos los derechos. Designed By <span>TPS 109</span></p>
-        </div>
-    </footer>
-
 </body>
 
 </html>
