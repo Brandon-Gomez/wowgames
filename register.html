@@ -8,35 +8,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/sylescuenta.css">
+    <link rel="stylesheet" href="css/sylesregister.css">
     <link rel="stylesheet" href="main.js">
 
     <title>Cuenta</title>
 </head>
 <body class="bg-dark">
     <section>
-        <div class="align-items-center">
+        <div class="row g-0">
+            <div class="col-lg-7 d-none d-lg-block">
                 
-            <div class="col-lg-4 d-flex flex-column align-items-end min-vh-100">
-                <div class="px-lg-7 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
-                    <a href="index.php"><img src="img/wowgames_logo.svg" alt="logo" class="img-fluid"></a>
-                </div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item img-1 min-vh-100 active">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Logitech</h5>
+                          <a href="#" class="text-muted text-decoration-none">Visita nuestra tienda</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item img-2 min-vh-100">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>HyperX</h5>
+                          <a href="#" class="text-muted text-decoration-none">Visita nuestra tienda</a>
+                        </div>
+                      </div>
+                      <div class="carousel-item img-3 min-vh-100">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Razer</h5>
+                          <a href="#" class="text-muted text-decoration-none">Visita nuestra tienda</a>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Despues</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
                 <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
-                    <h1 class="fw-bold mb-4">Registrarte</h1>
-                    <form class="mb-5">
-                        <div class="form-group mb-4">
-                          <label for="InputName" class="form-label font-weight-bold">Nombre</label>
-                          <input type="text" class="form-control bg-dark-x border-0" id="InputName" aria-describedby="emailHelp" placeholder="Ingresa tu nombre">
-                        </div>
-                        <div class="form-group mb-4">
-                          <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
-                          <input type="password" class="form-control bg-dark-x border-0 mb-2" id="password_input" placeholder="Ingresa tu contraseña">
-                          <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Has olvidado la contraseña?</a>
-                        </div>
+                    <h1 class="fw-bold mb-4">Registrate</h1>
+                    <div class="table-responsive"></div>
+                    <FORM class="mb-5" METHOD=POST>
 
+                      <TABLE class="m-auto">
                       
-                        <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
-                      </form>
+                      <TR>
+                         <TD><span>Nombre:</span></TD>
+                         <TD> <INPUT TYPE="text" NAME="nombre" class="col-md-10" MAXLENGTH=18>
+                      
+                      <TR>
+                         <TD><span>Apellidos:</span></TD>
+                         <TD> <INPUT TYPE="text" NAME="apellidos" class="col-md-10" MAXLENGTH=48></TD>
+                      
+                      <TR>
+                         <TD>  
+                          <button class="btn btn-outline-secondary dropdown-toggle col-md-8" type="button" data-bs-toggle="dropdown" aria-expanded="false">T.d</button>
+                          <ul class="dropdown-menu">
+                            <li><option class="dropdown-item"><span>Tarjeta de indetidad</span></option></li>
+                            <li><option class="dropdown-item"><span>Contraseña</span></option></li>
+                            <li><option class="dropdown-item"><span>Cedula</span></option></li>
+
+                          </ul>
+                          </TD>
+                          <td style="display: inline-flex;margin-top: 5px;"><span>Numero documento</span>
+                            <span><INPUT TYPE="number" NAME="nombre" id="option1" size="30" MAXLENGTH=18 style="inline-size: min-content;margin-left: 10px;"></span></td>                      
+                      <TR>
+                    
+                      
+                      <TR>
+                         <TD>Provincia: </TD>
+                         <TD> <INPUT TYPE="text" NAME="provincia" SIZE=20 MAXLENGTH=20>                Teléfono: 
+                               <INPUT TYPE="text" NAME="telefono" SIZE=19 MAXLENGTH=19></TD>
+                      
+                      <TR>
+                         <TD>Opción:</TD>
+                         <TD> <SELECT NAME="OPCION">
+                                  <OPTION>OPCION 1
+                                  <OPTION>OPCION 2
+                                  <OPTION>OPCION 3
+                                  <OPTION>OPCION 4
+                                  <OPTION>OPCION 5
+                      
+                              </SELECT>Escoja una opción</TD>
+                      
+                      <TR>
+                         <TD>Comentarios<BR> personales:</TD>
+                         <TD> <TEXTAREA NAME="coment" ROWS=2 COLS=48></TEXTAREA></TD>
+                      
+                      <TR>
+                         <TD><B>Pulse aquí:</B></TD>
+                         <TD ALIGN=CENTER>
+                             <INPUT TYPE="submit" VALUE="Enviar datos ">
+                             <INPUT TYPE="reset" VALUE="Borrar los datos"></TD>
+                      
+                      </TABLE>
+                      </FORM>
                       <p class="font-weight-bold text-center text-muted">O inicia sesión con</p>
                       <div class="d-flex justify-content-around">
                         <button type="submit" class="btn btn-outline-light flex-grow-1 me-2"><i class="fab fa-google lead me-2"></i>Google</button>
