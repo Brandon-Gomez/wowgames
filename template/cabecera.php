@@ -14,9 +14,10 @@
 <body>
 	<nav class="menu" id="menu">
 		<div class="contenedor contenedor-botones-menu ">
-			<button id="btn-menu-barras" class="btn-menu-barras"> <i class="fas fa-bars"> </i></button>
-			<button id="btn-menu-cerrar" class="btn-menu-cerrar"> <i class="fas fa-times"> </i></button>
+			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
 		</div>
+
 		<div class="contenedor contenedor-enlaces-nav">
 			<div class="btn-departamentos" id="btn-departamentos">
 				<p>Todos los<span>productos</span></p>
@@ -40,12 +41,11 @@
 					<a href="#" data-categoria="hyperx">HyperX<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer"> Razer <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redragon">Redragon <i class="fas fa-angle-right"></i></a>
-
 				</div>
 				
 				<div  class ="contenedor-subcategorias">
 					
-					<div class ="subcategoria"data-categoria ="logitech" >
+					<div class ="subcategoria activo"data-categoria ="logitech" >
 						<div class ="enlaces-subcategoria" >
 							<button class = "btn-regresar" ><i  class = "fas fa-arrow-left" ></i>Regresar</button >
 							<h3  class = "subtitulo" >Logitech</h3 >
@@ -64,16 +64,16 @@
 
 						<div  class ="galeria-subcategoria" >
 							<a href = "#">
-								<img src = "img/Logitech2.png" alt = "">
+								<img src = "img/logitech/2.png" alt = "">
 							</a>
 							<a  href = "#">
-								<img src = "img/logitech3.png " alt = "">
+								<img src = "img/logitech/3.png " alt = "">
 							</a>
 							<a href = "#">
-								<img src = "img/logitech4.png" alt = "">
+								<img src = "img/logitech/4.png" alt = "">
 							</a>
 							<a href = "#">
-								<img src = "img/logitech5.png" alt = "">
+								<img src = "img/logitech/5.png" alt = "">
 							</a>
 						</div>
 					</div >
@@ -195,7 +195,7 @@
 	</main>
 	
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-	<script src="./js/main.js"></script>
+	<script src="main.js"></script>
 
 </body>
 </html>
