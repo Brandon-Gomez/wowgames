@@ -14,16 +14,16 @@
 <body>
 	<nav class="menu" id="menu">
 		<div class="contenedor contenedor-botones-menu ">
-			<button id="btn-menu-barras " class="btn-menu-barras "> <i class="fas fa-bars "> </i> </button>
-			<button id="btn-menu-cerrar " class="btn-menu-cerrar "> <i class="fas fa-times "> </i> </button>
+			<button id="btn-menu-barras" class="btn-menu-barras"> <i class="fas fa-bars"> </i></button>
+			<button id="btn-menu-cerrar" class="btn-menu-cerrar"> <i class="fas fa-times"> </i></button>
 		</div>
 		<div class="contenedor contenedor-enlaces-nav">
-			<div class="btn-departamentos " id="btn-departamentos ">
-				<p>Todos los <span>productos</span></p>
+			<div class="btn-departamentos" id="btn-departamentos">
+				<p>Todos los<span>productos</span></p>
 				<i class=" fas fa-caret-down "></i>
 			</div>
 
-			<div class="enlaces ">
+			<div class="enlaces">
 				<a href="# ">Promociones </a>
 				<a href="# ">Mesa de Regalos </a>
 				<a href="# ">Ayuda </a>
@@ -34,18 +34,18 @@
 		<div class="contenedor contenedor-grid">
 			<div class="grid activo" id="grid">
 				<div class="categorias">
-					<button class="btn-regresar"><i class=" fas fa-arrow-left "></i> Regresar </button>
+					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
 					<a href="#" data-categoria="logitech"> Logitech <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="hyperx">HyperX<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer"> Razer <i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redragon">Redragon <i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="ryzen"> Ryzen <i class="fas fa-angle-right"></i></a>
+
 				</div>
 				
-				<div  class ="contenedor-subcategorias" >
+				<div  class ="contenedor-subcategorias">
 					
-					<div class ="subcategoria "data-categoria ="logitech" >
+					<div class ="subcategoria"data-categoria ="logitech" >
 						<div class ="enlaces-subcategoria" >
 							<button class = "btn-regresar" ><i  class = "fas fa-arrow-left" ></i>Regresar</button >
 							<h3  class = "subtitulo" >Logitech</h3 >
@@ -82,17 +82,17 @@
 	                                   <!-- hyperx-->
 
 
-					<div  class = "subcategoria " data-categoria = "hyperx" >
-						<div  class = " enlaces-subcategoria " >
-							<button  class = " btn-regresar " > <i  class = "fas fa-arrow-left "></i >Regresar</button >
-							<h3  class = " subtitulo " >hyperx</h3 >
+					<div  class = "subcategoria" data-categoria = "hyperx">
+						<div  class = "enlaces-subcategoria " >
+							<button  class = "btn-regresar" ><i  class = "fas fa-arrow-left "></i >Regresar</button >
+							<h3  class = "subtitulo " >hyperx</h3 >
 							<a href = " # " > mause </a >
 							<a href = " # " >teclado  </a >
 							<a href = " # " > adifonos </a >
 							<a href = " # " >  microfonos </a >
 						</div >
 
-						<div  class = " banner-subcategoria ">
+						<div  class = " banner-subcategoria">
 							<a href = " # ">
 								<img  src = "img/hyperx/1.png " alt = "">
 							</a >
@@ -117,7 +117,7 @@
 
                                                <!--razer-->
 				
-					<div class="subcategoria activo" data-categoria="razer">
+					<div class="subcategoria" data-categoria="razer">
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
 							<h3 class="subtitulo">razer</h3>
@@ -163,71 +163,41 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="" alt="">
+								<img src="img/redrago/1.png" alt="">
 							</a>
 						</div>
 
 						<div class="galeria-subcategoria">
 							<a href="#">
-								<img src="" alt="">
+								<img src="img/redrago/2.png" alt="">
 							</a>
 							<a href="#">
-								<img src="" alt="">
+								<img src="img/redrago/3.png" alt="">
 							</a>
 							<a href="#">
-								<img src="" alt="">
+								<img src="img/redrago/4.png" alt="">
 							</a>
 							<a href="#">
-								<img src="" alt="">
+								<img src="img/redrago/5.png" alt="">
 							</a>
 						</div>
 					</div>
-<!--
-				
 
-					<div class="subcategoria" data-categoria="alimentos-y-bebidas">
-						<div class="enlaces-subcategoria">
-							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-							<h3 class="subtitulo">Alimentos y Bebidas</h3>
-							<a href="#">Alimentos</a>
-							<a href="#">Bebidas</a>
-						</div>
-
-						<div class="banner-subcategoria">
-							<a href="#">
-								<img src="./img/comida-banner-1.png" alt="">
-							</a>
-						</div>
-
-						<div class="galeria-subcategoria">
-							<a href="#">
-								<img src="./img/comida-galeria-1.png" alt="">
-							</a>
-							<a href="#">
-								<img src="./img/comida-galeria-2.png" alt="">
-							</a>
-							<a href="#">
-								<img src="./img/comida-galeria-3.png" alt="">
-							</a>
-							<a href="#">
-								<img src="./img/comida-galeria-4.png" alt="">
-							</a>
-						</div>
-					</div>
-				</div>
+				</div>	
 			</div>
-		</div>-->
+		</div>
 	</nav>
+			
+						
 
-
-	<main class=" contenedor ">
+	<main class="contenedor">
 		<article></article>
 	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<script src="./js/main.js"></script>
 
-	<script src=" https://kit.fontawesome.com/2c36e9b7b1.js "> </script>
-	<script src=" main.js "> </script>
 </body>
 </html>
-
 
 	
