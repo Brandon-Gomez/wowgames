@@ -21,10 +21,11 @@
 			</div>
 
 			<div class="enlaces">
-				<a href="login.html">Cuenta</a>
 				<a href="#">Promociones</a>
 				<a href="#">Mesa de Regalos</a>
-				<a href="#">Ayuda</a>
+				<a href="#">Carrito</a>
+				<a href="login.html">Cuenta</a>
+
 			</div>
 		</div>
 
@@ -34,10 +35,10 @@
 					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
 
-					<a href="#" data-categoria="logitech">logitech<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="hyperx">hyperx<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="razer">razer<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="redrago">redragon<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
 					
 				</div>
 
@@ -45,11 +46,11 @@
 					<div class="subcategoria" data-categoria="logitech">
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-							<h3 class="subtitulo">logitech</h3>
-							<a href="#">mause</a>
+							<h3 class="subtitulo">Logitech</h3>
+							<a href="#">Mouse</a>
 							<a href="#">Teclado</a>
-							<a href="#">audifonos eqipo de sonido</a>
-							<a href="#">equipo de sonido</a>
+							<a href="#">Audifonos</a>
+							<a href="#">Equipo de sonido</a>
 							
 						</div>
 
@@ -78,11 +79,11 @@
 					<div class="subcategoria" data-categoria="hyperx">
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-							<h3 class="subtitulo">hyperx</h3>
-							<a href="#">mause</a>
-							<a href="#">teclado</a>
-							<a href="#">audifonos</a>
-							<a href="#">microfono</a>
+							<h3 class="subtitulo">Hyperx</h3>
+							<a href="#">Mouse</a>
+							<a href="#">Teclado</a>
+							<a href="#">Audifonos</a>
+							<a href="#">Microfono</a>
 						</div>
 
 						<div class="banner-subcategoria">
@@ -110,11 +111,11 @@
 					<div class="subcategoria" data-categoria="razer">
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-							<h3 class="subtitulo">razer</h3>
-							<a href="#">mause</a>
-							<a href="#">teclado</a>
-							<a href="#">audifonos</a>
-							<a href="#">microfono</a>
+							<h3 class="subtitulo">Razer</h3>
+							<a href="#">Mouse</a>
+							<a href="#">Teclado</a>
+							<a href="#">Audifonos</a>
+							<a href="#">Microfono</a>
 						</div>
 
 						<div class="banner-subcategoria">
@@ -143,11 +144,11 @@
 					<div class="subcategoria" data-categoria="redrago">
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
-							<h3 class="subtitulo">redragon</h3>
-							<a href="#">mause</a>
-							<a href="#">teclado</a>
-							<a href="#">audifonos</a>
-							<a href="#">microfono</a>
+							<h3 class="subtitulo">Redragon</h3>
+							<a href="#">Mouse</a>
+							<a href="#">Teclado</a>
+							<a href="#">Audifonos</a>
+							<a href="#">Microfono</a>
 						</div>
 
 						<div class="banner-subcategoria">
