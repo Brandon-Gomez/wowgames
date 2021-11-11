@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="styles.css">
-	<title>wongames</title>
+	<title>Wowgames</title>
 </head>
 <body>
 	<nav class="menu" id="menu">
@@ -56,7 +56,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/logitech/1.png" alt="">
+								<img src="img/logitech/si.svg" alt="">
 							</a>
 						</div>
 
@@ -88,7 +88,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/hyperx/1.png" alt="">
+								<img src="img/hyperx/logohyperx.svg" alt="">
 							</a>
 						</div>
 
