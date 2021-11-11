@@ -17,10 +17,10 @@ body {
     background-color: var(--dark-x);
 }
 
-/* .form-control, .btn{
+.form-control{
     min-height: 3.125rem;
     line-height: initial;
-} */
+}
 
 .text-light {
     font-weight: 600;
@@ -47,15 +47,26 @@ body {
 }
 
 td{
-    padding: 0.20rem;
+    padding: 7px
 }
 
-#option1{
-}
 
 option{
     cursor: pointer;
 }
 .form-control{
+    border-radius: 3px;
+}
+
+#telinput{
+    width: 9%;
+}
+
+table{
+    margin-top: 100px;
+}
+input{
+    border-radius: 3px;
+    min-height: 2rem;
 
 }
