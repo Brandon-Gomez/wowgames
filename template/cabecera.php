@@ -153,7 +153,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/redrago/1.png" alt="">
+								<img src="img/redrago/6.png" alt="">
 							</a>
 						</div>
 
