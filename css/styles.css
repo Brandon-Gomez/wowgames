@@ -26,9 +26,14 @@ main article {
 	height: 1000px;
 }
 
+
 /* ------------------------- */
 /* Enlaces del NAV */
 /* ------------------------- */
+
+#logo{
+	width: 200px;
+}
 .menu {
 	background: #1d252e;
 	padding: 5px 0;
