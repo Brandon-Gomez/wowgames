@@ -153,22 +153,22 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/redrago/1.png" alt="">
+								<img src="img/redragon/1.png" alt="">
 							</a>
 						</div>
 
 						<div class="galeria-subcategoria">
 							<a href="#">
-								<img src="img/redrago/2.png" alt="">
+								<img src="img/redragon/2.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/3.png" alt="">
+								<img src="img/redragon/3.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/4.png" alt="">
+								<img src="img/redragon/4.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/5.png" alt="">
+								<img src="img/redragon/5.png" alt="">
 							</a>
 						</div>
 					</div>
