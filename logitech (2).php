@@ -19,6 +19,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
     <link rel="stylesheet" href="css/menuu.css">
     <link rel="stylesheet" href="css/style.css">
+	
 </head>
 </head>
 <body>
@@ -63,6 +64,8 @@
 			</ul>                                     
 	</nav>
 
+	
+
 	<div class="banner">
 		<div style="color: white;" class="info">
 			<h1 style="text-align: center;">BIENVENIDOS A LOGITECH</h1>
@@ -73,29 +76,20 @@
 		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA VOS</h3>
 	   </div>
       
-	   <!-- <div class="uni"></div>
-	   <div class="verso">
-	   <img src="mouse.jpg" alt="">
-		   <h3>MOUSE Y TECLADOS</h3>
-		   <p>Mouse</p>
-		   <p>Teclado</p>
-		   <p>Teclados Multidospositivos<p>
-		   <p>Combos</p>
-	   </div>	 -->
-      
-		<div class="content">
-		<div class="productos">
-        <h3>MX ANIWHERE 3</h3>
-		<img src="../logitech/imagenes/pro1.jpg">
-		<h3>$200.000</h3>
+    
+	   <div class="content">
+	   <div class="productos">
+		<h3>MK200 Media Corded Keyboard and Mouse Combo</h3>
+		<img src="../logitech/imagenes/pro7.jpg">
+		<h3>Combinación USB Plug-and-Play con teclas multimedia.</h3><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
-		</div>
+	</div> 
 
 		
 		<div class="productos">
-        <h3>MX KEYS</h3>
+		<h3>MX KEYS</h3>
 		<img src="../logitech/imagenes/pro2.jpg">
-		<h3>$200.000</h3>
+		<h3>Teclado inalámbrico iluminado avanzado.</h3><br><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
 		</div>
 
@@ -103,36 +97,86 @@
 		<div class="productos">
         <h3>ERGO K860</h3>
 		<img src="../logitech/imagenes/pro3.jpg">
-		<h3>$200.000</h3>
-		<button class="button-add">AGREGAR AL CARRITO</button>
-		</div>
-
-		
-		<div class="productos">
-        <h3>USB UNIFYING</h3>
-		<img src="../logitech/imagenes/pro4.jpg">
-		<h3>$200.000</h3>
+		<h3>Teclado ergonómico partido</h3><br><br><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
 		</div><br>
 
+
+
+		<div class="productos">
+			<h3>MK345 Comfort Wireless Keyboard and Mouse Combo</h3><br>
+			<img src="../logitech/imagenes/pro6.jpg"><br><br>
+			<h3>Cómoda combinación inalámbrica con reposamanos.</h3><br>
+			<button class="button-add">AGREGAR AL CARRITO</button>
+		</div>
+
 		
-		<div class="productos"><br>
-        <h3>LOGI BOLT USB RECEIVER</h3>
-		<img src="../logitech/imagenes/pro5.jpg">
-		<h3>$200.000</h3>
+
+
+      </div>
+     </div> 
+
+	 <div class="nav">
+		<h3 style="text-align: center;">COLECCION</h3>
+	   </div>
+
+	   <div class="content">
+		<div class="productos">
+        <h3>MX ANIWHERE 3</h3>
+		<img src="../logitech/imagenes/pro1.jpg"><br><br>
+		<h1>Mouse compacto de alto desempeño.</h3><br><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
 		</div>
 
-		<div class="productos"><br>
-        <h3>LOGI BOLT USB RECEIVER</h3>
-		<img src="../logitech/imagenes/pro5.jpg">
-		<h3>$200.000</h3>
+	  
+
+	 <div class="productos">
+		<h3>Design Collection Limited Edition Wireless Mouseo</h3>
+		<img src="../logitech/imagenes/pro8.jpg">
+		<h3>Confortables mouse compactos con diseños divertidos.</h3><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
-		</div>
-      </div>
-     </div>
+	</div>
+
+	<div class="productos">
+		<h3>Mouse inalámbrico Color Collection</h3>
+		<img src="../logitech/imagenes/pro9.jpg"><br><br>
+		<h3>Mouse compacto y confortable para navegación web.</h3><br>
+		<button class="button-add">AGREGAR AL CARRITO</button>
+	</div>
+
+	<div class="productos">
+		<h3>M187 INALÁMBRICO ULTRAPORTÁTIL</h3>
+		<img src="../logitech/imagenes/pro10.jpg">
+		<h3>Diseño portátil superpequeño</h3><br><br>
+		<button class="button-add">AGREGAR AL CARRITO</button>
+	</div> 
 
 	
+
+	</div>
+
+	   
+
+	 <footer>
+        <div class="footer-content">
+          
+         <img src="img/wowgames_logo.svg" alt="" class="imgfoot">
+          <ul class="socials">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2021 Wowgames. Reservados todos los derechos. Designed By <span>TPS 109</span></p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://kit.fontawesome.com/d0dc7f6b6a.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 	  
 </body>
