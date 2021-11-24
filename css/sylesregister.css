@@ -47,7 +47,7 @@ body {
 }
 
 td{
-    padding: 7px
+    padding: 0.45rem;
 }
 
 
@@ -58,13 +58,10 @@ option{
     border-radius: 3px;
 }
 
-#telinput{
-    width: 9%;
-}
 
-table{
+/* table{
     margin-top: 100px;
-}
+} */
 input{
     border-radius: 3px;
     min-height: 2rem;
