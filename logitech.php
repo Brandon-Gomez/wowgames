@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>LOGITECH</title>
 	<script src="https://kit.fontawesome.com/11614eb144.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="../wowgames/css/style.css">
+	<link rel="stylesheet" href="../wowgames/css/logitech.css">
 	<link rel="stylesheet" href="../wowgames/css/styles.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
