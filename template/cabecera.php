@@ -34,7 +34,7 @@
 					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
 
-					<a href="#" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
+					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
