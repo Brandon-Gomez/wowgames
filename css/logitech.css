@@ -2,8 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
-	 cursor: default;
+	font-family: 'Roboto'!important;
  }
  .banner{
 	width: 100%;
@@ -73,6 +72,7 @@
 
 .productos img{
 	width: 250px;
+	cursor: pointer;
 }
 
 .button-add{

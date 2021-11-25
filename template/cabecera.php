@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="nav.css">
 	<title>Wowgames</title>
 </head>
 <body>
@@ -34,7 +34,7 @@
 					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
 
-					<a href="#" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
+					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
