@@ -6,16 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="nav.css">
 	<title>Wowgames</title>
-	<title>wowgames</title>
 </head>
 <body>
-
 	<nav class="menu" id="menu">
-
-	<div class="contenedor contenedor-botones-menu" <a href="index.php"><img src="img/wowgames_logo.svg" alt=""/> </a>
-					 
-	 
-						
+		<div class="contenedor contenedor-botones-menu">
 			<button id="btn-menu-barras" class="btn-menu-barras"><i class="fas fa-bars"></i></button>
 			<button id="btn-menu-cerrar" class="btn-menu-cerrar"><i class="fas fa-times"></i></button>
 		</div>
@@ -25,19 +19,13 @@
 				<p>Todos los<span>productos</span></p>
 				<i class="fas fa-caret-down"></i>
 			</div>
-			<a href="index.php"><img src="img/wowgames_logo.svg" alt="logo" id="logo" style="width: 200px;"></a>
 
 			<div class="enlaces">
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
 				<a href="login.html">Cuenta</a>
-			<div class="enlaces">			
-				<a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a>
-
-				<a href="login.html"> <i class="fas fa-user"></i>Cuenta</a>
 
 			</div>
-
 		</div>
 
 		<div class="contenedor contenedor-grid">
@@ -48,9 +36,6 @@
 
 					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
-
-					<a href="logitech_productos.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
 					
@@ -168,7 +153,6 @@
 						<div class="banner-subcategoria">
 							<a href="#">
 								<img loading="lazy" src="img/redragon/1.png" alt="">
-								<img src="img/redrago/6.png" alt="">
 							</a>
 						</div>
 
@@ -193,7 +177,7 @@
 	</nav>
 
 	
-	<script src="https://kit.fontawesome.com/d0dc7f6b6a.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<script src="main.js"></script>
 </body>
 </html>
