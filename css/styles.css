@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #f2fafa;
+	background-color: #f2fafa;
 	font-family: Arial, sans-serif;
 }
 
@@ -32,7 +32,6 @@ main article {
 .menu {
 	background: #1d252e;
 	padding: 5px 0;
-	margin-bottom: 20px;
 }
 
 .menu .contenedor-botones-menu {
@@ -407,6 +406,7 @@ main article {
 /* ------------------------- */
 
 footer{
+	margin-top: 60px;
    position: absolute;
    left: 0;
    right: 0;

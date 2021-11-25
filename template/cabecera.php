@@ -21,8 +21,7 @@
 			</div>
 
 			<div class="enlaces">
-				<a href="#">Promociones</a>
-				<a href="#">Mesa de Regalos</a>
+				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
 				<a href="login.html">Cuenta</a>
 
@@ -36,7 +35,7 @@
 					<h3 class="subtitulo">Categorias</h3>
 
 					<a href="#" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
+					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
 					
@@ -56,7 +55,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/logitech/si.svg" alt="">
+								<img loading="lazy" src="img/logitech/si.svg" alt="">
 							</a>
 						</div>
 
@@ -87,8 +86,8 @@
 						</div>
 
 						<div class="banner-subcategoria">
-							<a href="#">
-								<img src="img/hyperx/logohyperx.svg" alt="">
+							<a href="hyperx.php">
+								<img loading="lazy" src="img/hyperx/logohyperx.svg" alt="">
 							</a>
 						</div>
 
@@ -120,7 +119,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/razer/1.png" alt="">
+								<img loading="lazy" src="img/razer/1.png" alt="">
 							</a>
 						</div>
 
@@ -153,7 +152,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/redragon/1.png" alt="">
+								<img loading="lazy" src="img/redragon/1.png" alt="">
 							</a>
 						</div>
 
@@ -177,14 +176,6 @@
 		</div>
 	</nav>
 
-				
-						
-					
-						
-
-	<main class="contenedor">
-		<article></article>
-	</main>
 	
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 	<script src="main.js"></script>
