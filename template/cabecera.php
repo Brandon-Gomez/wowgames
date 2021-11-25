@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="styles.css">
+	<title>Wowgames</title>
 	<title>wowgames</title>
 </head>
 <body>
@@ -26,6 +27,10 @@
 			</div>
 			<a href="index.php"><img src="img/wowgames_logo.svg" alt="logo" id="logo" style="width: 200px;"></a>
 
+			<div class="enlaces">
+				<a href="index.php">Inicio</a>
+				<a href="#">Carrito</a>
+				<a href="login.html">Cuenta</a>
 			<div class="enlaces">			
 				<a href="#"><i class="fas fa-shopping-cart"></i> Carrito</a>
 
@@ -40,6 +45,9 @@
 				<div class="categorias">
 					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
+
+					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
+					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 
 					<a href="logitech_productos.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
@@ -62,7 +70,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/logitech/1.png" alt="">
+								<img loading="lazy" src="img/logitech/si.svg" alt="">
 							</a>
 						</div>
 
@@ -93,8 +101,8 @@
 						</div>
 
 						<div class="banner-subcategoria">
-							<a href="#">
-								<img src="img/hyperx/1.png" alt="">
+							<a href="hyperx.php">
+								<img loading="lazy" src="img/hyperx/logohyperx.svg" alt="">
 							</a>
 						</div>
 
@@ -126,7 +134,7 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
-								<img src="img/razer/1.png" alt="">
+								<img loading="lazy" src="img/razer/1.png" alt="">
 							</a>
 						</div>
 
@@ -159,22 +167,23 @@
 
 						<div class="banner-subcategoria">
 							<a href="#">
+								<img loading="lazy" src="img/redragon/1.png" alt="">
 								<img src="img/redrago/6.png" alt="">
 							</a>
 						</div>
 
 						<div class="galeria-subcategoria">
 							<a href="#">
-								<img src="img/redrago/2.png" alt="">
+								<img src="img/redragon/2.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/3.png" alt="">
+								<img src="img/redragon/3.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/4.png" alt="">
+								<img src="img/redragon/4.png" alt="">
 							</a>
 							<a href="#">
-								<img src="img/redrago/5.png" alt="">
+								<img src="img/redragon/5.png" alt="">
 							</a>
 						</div>
 					</div>
@@ -183,14 +192,6 @@
 		</div>
 	</nav>
 
-				
-						
-					
-						
-
-	<main class="contenedor">
-		<article></article>
-	</main>
 	
 	<script src="https://kit.fontawesome.com/d0dc7f6b6a.js" crossorigin="anonymous"></script>
 	<script src="main.js"></script>
