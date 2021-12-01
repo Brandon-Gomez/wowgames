@@ -2,8 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
-	 cursor: default;
  }
  .banner{
 	width: 100%;
@@ -73,6 +71,7 @@
 
 .productos img{
 	width: 250px;
+	cursor: pointer;
 }
 
 .button-add{
@@ -99,7 +98,9 @@
 		justify-content: space-between; 
   } 
 
-  
+  h3{
+	  font-weight: 500 !important;
+  }
 
 
 

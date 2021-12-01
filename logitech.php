@@ -3,9 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>LOGITECH</title>
-	<script src="https://kit.fontawesome.com/11614eb144.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="../wowgames/css/logitech.css">
-	<link rel="stylesheet" href="../wowgames/css/styles.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,13 +10,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/syles.css">
-    <link rel="stylesheet" href="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
-    <link rel="stylesheet" href="css/menuu.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/logitech.css">
 	
 </head>
 </head>
@@ -31,7 +28,7 @@
 <div class="banner">
 	</div>
 	   <div class="nav">
-		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA VOS</h3>
+		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA TI</h3>
 	   </div>
       
     

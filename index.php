@@ -5,11 +5,9 @@
 </main>
 	
 
-			
-		
+
+
 <?php include("template/pie.php")?>
 
-
-hey me follo a tu madre xd
 
 
