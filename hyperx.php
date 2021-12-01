@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hyper X</title>
-  <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/hyperx.css">
 
   <link href = "https: //fonts.googleapis.com/css2? family = Mohave: wght @ 300 & display = swap "rel =" stylesheet ">
