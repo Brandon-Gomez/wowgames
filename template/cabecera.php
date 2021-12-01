@@ -4,7 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 	<link rel="stylesheet" href="styles.css">
+
+	<link rel="stylesheet" href="css/nav.css">
+226ba88adf78326c9c26e9feb0f0ffed1eab5058
 	<title>Wowgames</title>
 </head>
 <body>
