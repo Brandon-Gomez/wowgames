@@ -99,7 +99,7 @@ include'global/conexion.php';
                           <TD>Ciudad 
                           <TD> 
                                         <select class="form-control bg-light border-0" id="inputCiudadLine2">
-                                            <option value="">-</option>
+                                            <option value=""> Seleccione ciudad</option>
                                             <option value="Arauca">Arauca</option>
                                             <option value="Armenia">Armenia</option>
                                             <option value="Barranquilla">Barranquilla</option>
