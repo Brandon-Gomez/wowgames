@@ -4,13 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< Updated upstream
 	<link rel="stylesheet" href="css/nav.css">
 	<title>wowgames</title>
-=======
-	<link rel="stylesheet" href="../css/nav">
-	<title>Wowgames</title>
->>>>>>> Stashed changes
 </head>
 <body>
 	<nav class="menu" id="menu">
