@@ -6,8 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="nav.css">
 	<title>wowgames</title>
-	<link rel="stylesheet" href="styles.css">
-	<title>Wowgames</title>
 </head>
 <body>
 	<nav class="menu" id="menu">
@@ -25,7 +23,7 @@
 			<div class="enlaces">
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
-				<a href="login.html">Cuenta</a>
+				<a href="login.php">Cuenta</a>
 
 			</div>
 		</div>
@@ -36,7 +34,7 @@
 					<button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
 					<h3 class="subtitulo">Categorias</h3>
 
-					<a href="#" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
+					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>

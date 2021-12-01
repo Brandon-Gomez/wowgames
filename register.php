@@ -122,7 +122,7 @@
                       </div>
                 </div>
                 <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
-                    <p class="d-inline-block mb-0">¿Tienes una cuenta?</p> <a href="login.html" class="text-light font-weight-bold text-decoration-none"> Inicia sesion</a>
+                    <p class="d-inline-block mb-0">¿Tienes una cuenta?</p> <a href="login.php" class="text-light font-weight-bold text-decoration-none"> Inicia sesion</a>
                 </div>
             </div>
         </div>
