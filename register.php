@@ -1,3 +1,11 @@
+<?php
+
+include'global/config.php';
+include'global/conexion.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,12 +74,11 @@
                       
                       <TR>
                          <TD><span>Nombre</span></TD>
-                         <TD> <INPUT TYPE="text" NAME="nombre" class="col-md-12 bg-dark-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
-                      
-                      <TR>
-                         <TD><span>Apellido</span></TD>
-                         <TD> <INPUT TYPE="text" NAME="apellidos" class="col-md-12 bg-dark-x border-0 w-100" MAXLENGTH=48 placeholder="Ingrese su apellido "></TD>
-                      
+
+
+                         <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
+
+
                       <TR>
                          <TD>  
                           <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.D</button>
@@ -83,34 +90,90 @@
                           </ul>
                           </TD>
                           <td ><span class="col-md-12">
-                            <INPUT TYPE="number" NAME="id" class="col-md-12 me-1 bg-dark-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+
+
+                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+
+
                       <TR>
                     
                       
                         <TR>
-                          <TD>Ciudad 
-                          <TD><INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese ciudad">            
+
+                          <TD><span>Ciudad</span>
+                          <TD> 
+                                        <select class="form-control bg-light border-0" id="inputCiudadLine2">
+                                            <option value=""> Seleccione ciudad</option>
+                                            <option value="Arauca">Arauca</option>
+                                            <option value="Armenia">Armenia</option>
+                                            <option value="Barranquilla">Barranquilla</option>
+                                            <option value="Bogotá">Bogotá</option>
+                                            <option value="Bucaramanga">Bucaramanga</option>
+                                            <option value="Cali">Cali</option>
+                                            <option value="Cartagena">Cartagena</option>
+                                            <option value="Cúcuta">Cúcuta</option>
+                                            <option value="Florencia">Florencia</option>
+                                            <option value="Ibagué">Ibagué</option>
+                                            <option value="Leticia">Leticia</option>
+                                            <option value="Manizales">Manizales</option>
+                                            <option value="Medellín">Medellín</option>
+                                            <option value="Mitú">Mitú</option>
+                                            <option value="Mocoa">Mocoa</option>
+                                            <option value="Montería">Montería</option>
+                                            <option value="Neiva">Neiva</option>
+                                            <option value="Pasto">Pasto</option>
+                                            <option value="Pereira">Pereira</option>
+                                            <option value="Popayán">Popayán</option>
+                                            <option value="Puerto Carreño">Puerto Carreño</option>
+                                            <option value="Puerto Inírida">Puerto Inírida</option>
+                                            <option value="Quibdó">Quibdó</option>
+                                            <option value="Riohacha">Riohacha</option>
+                                            <option value="San Andrés">San Andrés</option>
+                                            <option value="San José del Guaviare">San José del Guaviare</option>
+                                            <option value="Santa Marta">Santa Marta</option>
+                                            <option value="Sincelejo">Sincelejo</option>
+                                            <option value="Tunja">Tunja</option>
+                                            <option value="Valledupar">Valledupar</option>
+                                            <option value="Villavicencio">Villavicencio</option>
+                                            <option value="Yopal">Yopal</option>
+                                        </select>            
                       <TR>
                         
                       <TR>
                         <TD>Direccion 
-                        <TD><INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese su residencia">            
+
+
+                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+
+
                       <TR>
 
                         <TR>
                           <TD>Fecha Nacimiento
-                          <TD><INPUT TYPE="date" NAME="fnacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese">
+
+
+                          <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
+
+
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
-                              <TD><input type="number" name="telefono" id="telinput" class="col-md-12 bg-dark-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+
+
+                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+
+
 
                         </TR>
 
                          <TR>
                         <TD><span>Correo electronico</span></TD>
-                        <td><input type="email" name="correo" id="" class="col-md-12 bg-dark-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+
+
+                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+
+
                       <TR>
                       </TABLE>
                       <button type="submit" class="btn btn-primary w-100 mt-3" >Registrarse</button>
