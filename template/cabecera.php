@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="css/nav.css">
 
 	<title>Wowgames</title>
+	<link rel="stylesheet" href="nav.css">
+	<title>wowgames</title>
 </head>
 <body>
 	<nav class="menu" id="menu">

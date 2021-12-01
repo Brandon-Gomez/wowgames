@@ -79,6 +79,11 @@ include'global/conexion.php';
                       <TR>
                          <TD><span>Apellido</span></TD>
                          <TD> <INPUT TYPE="text" NAME="apellidos" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=48 placeholder="Ingrese su apellido "></TD>
+                         <TD> <INPUT TYPE="text" NAME="nombre" class="col-md-12 bg-dark-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
+                      
+                      <TR>
+                         <TD><span>Apellido</span></TD>
+                         <TD> <INPUT TYPE="text" NAME="apellidos" class="col-md-12 bg-dark-x border-0 w-100" MAXLENGTH=48 placeholder="Ingrese su apellido "></TD>
                       
                       <TR>
                          <TD>  
@@ -92,6 +97,7 @@ include'global/conexion.php';
                           </TD>
                           <td ><span class="col-md-12">
                             <INPUT TYPE="number" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+                            <INPUT TYPE="number" NAME="id" class="col-md-12 me-1 bg-dark-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
                       <TR>
                     
                       
@@ -133,27 +139,33 @@ include'global/conexion.php';
                                             <option value="Villavicencio">Villavicencio</option>
                                             <option value="Yopal">Yopal</option>
                                         </select>            
+                          <TD><INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese ciudad">            
                       <TR>
                         
                       <TR>
                         <TD>Direccion 
                         <TD><INPUT TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+
+                        <TD><INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese su residencia">            
                       <TR>
 
                         <TR>
                           <TD>Fecha Nacimiento
                           <TD><INPUT TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
+                          <TD><INPUT TYPE="date" NAME="fnacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-dark-x border-0 w-100" placeholder="Ingrese">
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
                               <TD><input type="number" name="telefono" id="telinput" class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+                              <TD><input type="number" name="telefono" id="telinput" class="col-md-12 bg-dark-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
                         </TR>
 
                          <TR>
                         <TD><span>Correo electronico</span></TD>
                         <td><input type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+                        <td><input type="email" name="correo" id="" class="col-md-12 bg-dark-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
                       <TR>
                       </TABLE>
                       <button type="submit" class="btn btn-primary w-100 mt-3" >Registrarse</button>
