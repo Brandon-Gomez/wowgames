@@ -4,13 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
 	<link rel="stylesheet" href="nav.css">
 	<title>wowgames</title>
-=======
 	<link rel="stylesheet" href="styles.css">
 	<title>Wowgames</title>
->>>>>>> parent of d2775f6 (Merge pull request #18 from Brandon-Gomez/Bastidas)
 </head>
 <body>
 	<nav class="menu" id="menu">
