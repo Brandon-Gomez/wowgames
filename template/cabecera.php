@@ -27,7 +27,7 @@
 			<div class="enlaces">
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
-				<a href="login.html">Cuenta</a>
+				<a href="login.php">Cuenta</a>
 
 			</div>
 		</div>
