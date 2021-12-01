@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="styles.css">
 
 	<link rel="stylesheet" href="css/nav.css">
-226ba88adf78326c9c26e9feb0f0ffed1eab5058
+
 	<title>Wowgames</title>
 </head>
 <body>
