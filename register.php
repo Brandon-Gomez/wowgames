@@ -91,10 +91,10 @@ include'global/conexion.php';
                     
                       
                         <TR>
-                          <TD>Ciudad 
-<<<<<<< HEAD
-                          <TD><INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese ciudad">            
-=======
+                          <TD><span>Ciudad</span>
+
+                         
+
                           <TD> 
                                         <select class="form-control bg-light border-0" id="inputCiudadLine2">
                                             <option value=""> Seleccione ciudad</option>
@@ -131,7 +131,6 @@ include'global/conexion.php';
                                             <option value="Villavicencio">Villavicencio</option>
                                             <option value="Yopal">Yopal</option>
                                         </select>            
->>>>>>> 521cac5803a176f1dfb3d71fee81ac71b3d215c9
                       <TR>
                         
                       <TR>
