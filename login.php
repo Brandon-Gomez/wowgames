@@ -1,3 +1,11 @@
+<?php
+
+include'global/config.php';
+include'global/conexion.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/sylesregister.css">
+    <link rel="stylesheet" href="css/syleslogin.css">
     <link rel="stylesheet" href="main.js">
 
     <title>Cuenta</title>
@@ -55,64 +63,33 @@
                   </div>
             </div>
             <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
-              <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
-                <a href="index.php"><img src="img/wowgames_logo.svg" alt="logo" class="img-fluid"></a>
-            </div>
+                <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
+                    <a href="index.php"><img src="img/wowgames_logo.svg" alt="logo" class="img-fluid"></a>
+                </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
-                    <h1 class="fw-bold mb-4">Registrate</h1>
-                    <div class="table-responsive"></div>
-                    <FORM class="mb-5" METHOD=POST>
+                    <h1 class="fw-bold mb-4">Bienvenido de vuelta</h1>
+                    <form class="mb-5">
+                        <div class="form-group mb-4">
+                          <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
+                          <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+                        </div>
+                        <div class="form-group mb-4">
+                          <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
+                          <input type="password" class="form-control bg-dark-x border-0 mb-2" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
+                          <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Has olvidado la contraseña?</a>
+                        </div>
 
-                      <TABLE class="m-auto">
                       
-                      <TR>
-                         <TD><span>Nombre</span></TD>
-                         <TD> <INPUT TYPE="text" NAME="nombre" class="col-md-12 bg-dark-x border-0" MAXLENGTH=18 placeholder="Ingrese su nombre">
-                      
-                      <TR>
-                         <TD><span>Apellido</span></TD>
-                         <TD> <INPUT TYPE="text" NAME="apellidos" class="col-md-12 bg-dark-x border-0" MAXLENGTH=48 placeholder="Ingrese su apellido "></TD>
-                      
-                      <TR>
-                         <TD>  
-                          <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.documento</button>
-                          <ul class="dropdown-menu">
-                            <li><option class="dropdown-item"><span>Tarjeta de indetidad</span></option></li>
-                            <li><option class="dropdown-item"><span>Contraseña</span></option></li>
-                            <li><option class="dropdown-item"><span>Cedula</span></option></li>
-
-                          </ul>
-                          </TD>
-                          <td style="display: inline-flex;margin-top: 5px;"><span class="col-md-12 ms-2 ">Numero documento
-                            <INPUT TYPE="number" NAME="id" class="col-md-16 bg-dark-x border-0" MAXLENGTH=18 style="inline-size: min-content;margin-left: 10px;" placeholder="Ingrese Nº documento "></span></td>                      
-                      <TR>
-                    
-                      
-                      <TR>
-                         <TD><span>Ciudad </TD>
-                         <TD> <INPUT TYPE="text" NAME="ciudad" id="cityinput"  MAXLENGTH=20 class="col-md-3 me-1 bg-dark-x border-0" placeholder="Ingrese"></span>Dirección           
-                          <input type="text" name="dirección" class="col-md-100 bg-dark-x border-0" maxlength="19" style="position: absolute;margin-left: 9px;" placeholder="Ingrese su residencia ">
-                      <TR>
-                      <TR>
-                      
-                      <TD><span>Fecha Nacimiento </TD>
-                        <TD> <INPUT TYPE="date" NAME="fnacimiento"  MAXLENGTH=20 class="col-md-5 me-1 bg-dark-x border-0" placeholder="Ingrese"></span>Teléfono           
-                         <input type="number" name="telefono" id="telinput" class="col-md-6 bg-dark-x border-0" maxlength="19" style="position: absolute;margin-left: 5px;" placeholder="Ingrese numero">                      
-                         <TR>
-                        <TD><span>Correo electronico</span></TD>
-                        <td><input type="email" name="correo" id="" class="col-md-12 bg-dark-x border-0" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
-                      <TR>
-                      </TABLE>
-                      <button type="submit" class="btn btn-primary w-100 mt-2" >Registrarse</button>
-                      </FORM>
-                      <p class="font-weight-bold text-center text-muted">O registrate con</p>
+                        <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
+                      </form>
+                      <p class="font-weight-bold text-center text-muted">O inicia sesión con</p>
                       <div class="d-flex justify-content-around">
                         <button type="submit" class="btn btn-outline-light flex-grow-1 me-2"><i class="fab fa-google lead me-2"></i>Google</button>
                         <button type="submit" class="btn btn-outline-light flex-grow-1 ms-2"><i class="fab fa-facebook-f lead me-2"></i>Facebook</button>
                       </div>
                 </div>
                 <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
-                    <p class="d-inline-block mb-0">¿Tienes una cuenta?</p> <a href="login.html" class="text-light font-weight-bold text-decoration-none"> Inicia sesion</a>
+                    <p class="d-inline-block mb-0">¿No tienes una cuenta?</p> <a href="register.php" class="text-light font-weight-bold text-decoration-none"> Registrate</a>
                 </div>
             </div>
         </div>
