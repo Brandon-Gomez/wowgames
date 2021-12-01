@@ -1,13 +1,11 @@
 <?php
 
-$servidor="localhost";
-$usuario="root";
-$clave="";
-$bd="wowgames";
+define("SERVIDOR","localhost");
+define("USUARIO","root");
+define("PASSWORD","");
+define("BD","wowgames");
 
-$enlace = mysqli_connect($servidor,$usuario,$clave,$bd);
-if (!$enlace) {
-    echo "Error en la conexion";
-}
+
+
 
 ?>

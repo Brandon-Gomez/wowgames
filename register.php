@@ -75,7 +75,9 @@ include'global/conexion.php';
                       <TR>
                          <TD><span>Nombre</span></TD>
 
+
                          <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
+
 
                       <TR>
                          <TD>  
@@ -89,12 +91,15 @@ include'global/conexion.php';
                           </TD>
                           <td ><span class="col-md-12">
 
+
                             <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+
 
                       <TR>
                     
                       
                         <TR>
+
                           <TD><span>Ciudad</span>
                           <TD> 
                                         <select class="form-control bg-light border-0" id="inputCiudadLine2">
@@ -137,21 +142,27 @@ include'global/conexion.php';
                       <TR>
                         <TD>Direccion 
 
+
                         <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+
 
                       <TR>
 
                         <TR>
                           <TD>Fecha Nacimiento
 
+
                           <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
+
 
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
 
+
                               <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+
 
 
                         </TR>
@@ -159,7 +170,9 @@ include'global/conexion.php';
                          <TR>
                         <TD><span>Correo electronico</span></TD>
 
+
                         <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+
 
                       <TR>
                       </TABLE>
