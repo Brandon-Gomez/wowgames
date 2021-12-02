@@ -8,6 +8,11 @@
 
 <?php include("template/pie.php")?>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> parent of 49ea049 (arreglos)
 =======
 
 

@@ -75,11 +75,15 @@ include'global/conexion.php';
                       <TR>
                          <TD><span>Nombre</span></TD>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
                          <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
 
 
+=======
+                         <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
+>>>>>>> parent of 49ea049 (arreglos)
 =======
                          <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
 >>>>>>> parent of 49ea049 (arreglos)
@@ -95,11 +99,15 @@ include'global/conexion.php';
                           </TD>
                           <td ><span class="col-md-12">
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
                             <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 
 
+=======
+                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+>>>>>>> parent of 49ea049 (arreglos)
 =======
                             <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 >>>>>>> parent of 49ea049 (arreglos)
@@ -153,11 +161,15 @@ include'global/conexion.php';
                       <TR>
                         <TD>Direccion 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
                         <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
 
 
+=======
+                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+>>>>>>> parent of 49ea049 (arreglos)
 =======
                         <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
 >>>>>>> parent of 49ea049 (arreglos)
@@ -166,6 +178,7 @@ include'global/conexion.php';
                         <TR>
                           <TD>Fecha Nacimiento
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
                           <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
@@ -174,10 +187,14 @@ include'global/conexion.php';
 =======
                           <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
 >>>>>>> parent of 49ea049 (arreglos)
+=======
+                          <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
+>>>>>>> parent of 49ea049 (arreglos)
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -185,6 +202,10 @@ include'global/conexion.php';
 
 
 
+=======
+                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+
+>>>>>>> parent of 49ea049 (arreglos)
 =======
                               <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
@@ -194,11 +215,15 @@ include'global/conexion.php';
                          <TR>
                         <TD><span>Correo electronico</span></TD>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
                         <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
 
 
+=======
+                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+>>>>>>> parent of 49ea049 (arreglos)
 =======
                         <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
 >>>>>>> parent of 49ea049 (arreglos)
