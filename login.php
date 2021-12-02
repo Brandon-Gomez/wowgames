@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php     
 
 $require = 'conexion.php';
 
+=======
+<?php     include('global/conexion.php');
+>>>>>>> parent of df3f070 (conexion)
 =======
 <?php     include('global/conexion.php');
 >>>>>>> parent of df3f070 (conexion)
