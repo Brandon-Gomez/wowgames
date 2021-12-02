@@ -1,10 +1,24 @@
 <?php
+require'global/conexion.php';
 
-include'global/config.php';
-include'global/conexion.php';
+$message='';
 
+if (!empty($_POST['email']) && !empty($_POST['password'])) {
+  $sql = "INSERT INTO users(email, password) VALUES (:email, :password)";
+  $stmt = $conn->prepare($sql);
+  $stmt->bindParam(':email',$_POST['email']);
+  $password = password_hash($_POST['password'], PASSWORD_BCRYPT); 
+  $stmt->bindParam(':password',$password);
+  
+  if ($stmt->execute()) {
+    $message= 'Successfully created new user';
+  }else{
+    $message= 'Sorry there must have beed an issue creating your account';
+
+  }
+  
+}
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,6 +36,10 @@ include'global/conexion.php';
     <title>Cuenta</title>
 </head>
 <body class="bg-dark">
+
+<?php if (!empty($message)): ?>
+  <p><?php $message ?></p>
+  <?php endif ?>
     <section>
         <div class="row g-0">
             <div class="col-lg-7 d-none d-lg-block">
@@ -171,8 +189,20 @@ include'global/conexion.php';
                         <TD><span>Correo electronico</span></TD>
 
 
-                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+                        <td><input required type="email" name="email" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
 
+
+                      <TR>
+                      <TD><span>Contraseña</span></TD>
+
+
+                      <td><input required type="password" name="password" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su contraseña" style="margin-left: 1px;"></td>
+
+                      <TR>
+                      <TD><span>confirmar Contraseña</span></TD>
+
+
+                      <td><input required type="password" name="confirm_password" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="confirme su contraseña" style="margin-left: 1px;"></td>
 
                       <TR>
                       </TABLE>
