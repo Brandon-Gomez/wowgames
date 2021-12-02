@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 <?php     
 
 $require = 'conexion.php';
 
+=======
+<?php     include('global/conexion.php');
+>>>>>>> parent of df3f070 (conexion)
 ?>
 <!DOCTYPE html>
 <html lang="en">
