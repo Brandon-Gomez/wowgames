@@ -74,11 +74,15 @@ include'global/conexion.php';
                       
                       <TR>
                          <TD><span>Nombre</span></TD>
+<<<<<<< HEAD
 
 
                          <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
 
 
+=======
+                         <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
+>>>>>>> parent of 49ea049 (arreglos)
                       <TR>
                          <TD>  
                           <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.D</button>
@@ -90,17 +94,24 @@ include'global/conexion.php';
                           </ul>
                           </TD>
                           <td ><span class="col-md-12">
+<<<<<<< HEAD
 
 
                             <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 
 
+=======
+                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+>>>>>>> parent of 49ea049 (arreglos)
                       <TR>
                     
                       
                         <TR>
 
                           <TD><span>Ciudad</span>
+
+                         
+
                           <TD> 
                                         <select class="form-control bg-light border-0" id="inputCiudadLine2">
                                             <option value=""> Seleccione ciudad</option>
@@ -141,39 +152,56 @@ include'global/conexion.php';
                         
                       <TR>
                         <TD>Direccion 
+<<<<<<< HEAD
 
 
                         <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
 
 
+=======
+                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+>>>>>>> parent of 49ea049 (arreglos)
                       <TR>
 
                         <TR>
                           <TD>Fecha Nacimiento
+<<<<<<< HEAD
 
 
                           <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
 
 
+=======
+                          <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
+>>>>>>> parent of 49ea049 (arreglos)
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
+<<<<<<< HEAD
 
 
                               <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
 
 
+=======
+                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+
+>>>>>>> parent of 49ea049 (arreglos)
                         </TR>
 
                          <TR>
                         <TD><span>Correo electronico</span></TD>
+<<<<<<< HEAD
 
 
                         <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
 
 
+=======
+                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+>>>>>>> parent of 49ea049 (arreglos)
                       <TR>
                       </TABLE>
                       <button type="submit" class="btn btn-primary w-100 mt-3" >Registrarse</button>
