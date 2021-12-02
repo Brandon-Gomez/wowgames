@@ -1,5 +1,5 @@
 <?php
-require'global/conexion.php';
+require 'conexion.php';
 
 $message='';
 
@@ -38,8 +38,10 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 <body class="bg-dark">
 
 <?php if (!empty($message)): ?>
-  <p><?php $message ?></p>
+  <p> <script> alert('Successfully created new user') </script> </p>
   <?php endif ?>
+
+
     <section>
         <div class="row g-0">
             <div class="col-lg-7 d-none d-lg-block">
@@ -86,7 +88,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
             </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 ">
                     <h1 class="fw-bold mb-4">Registrate</h1>
-                    <FORM class="mb-5" METHOD=POST>
+                    <FORM class="mb-5" action="register.php" METHOD=POST>
 
                       <TABLE class="m-auto">
                       

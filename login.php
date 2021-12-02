@@ -1,4 +1,26 @@
-<?php     include('global/conexion.php');
+<?php     
+
+session_start();
+
+require 'conexion.php';
+
+if (!empty($_POST['email']) && !empty($_POST['password'])) {
+  $records = $conn->prepare('SELECT id,email,password FROM users WHERE email=:email');
+  $records->bindParam(':email', $_POST['email']);
+  $records->execute();
+  $results = $records->fetch(PDO::FETCH_ASSOC);
+
+  $message ='';
+
+if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
+  $_SESSION['user_id']=$results['id'];
+  header('Locationn: /php-login');
+  }else{
+    $message = 'Sorry, those credentials do not match';
+  }
+}
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,6 +38,11 @@
     <title>Cuenta</title>
 </head>
 <body class="bg-dark">
+
+<?php if (!empty($message)): ?>
+  <p> <script> alert($message) </script> </p>
+  <?php endif ?>
+
     <section>
         <div class="row g-0">
             <div class="col-lg-7 d-none d-lg-block">
@@ -62,7 +89,7 @@
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
                     <h1 class="fw-bold mb-4">Bienvenido de vuelta</h1>
-                    <form class="mb-5">
+                    <form class="mb-5" action="login.php" method="POST">
                         <div class="form-group mb-4">
                           <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
                           <input type="email" name="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
@@ -74,7 +101,7 @@
                         </div>
 
                       
-                        <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-primary w-100" value="Send">Iniciar sesión</button>
                       </form>
                       <p class="font-weight-bold text-center text-muted">O inicia sesión con</p>
                       <div class="d-flex justify-content-around">

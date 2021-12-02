@@ -15,6 +15,7 @@
 
 <?php require("template/cabecera.php") ?>
 
+
 <!--Banner animado-->
   <section id="bannera">
     <div class="banner-content">
