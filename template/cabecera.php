@@ -1,25 +1,3 @@
-<?php
-
-session_start();
-
-require 'conexion.php';
-
-if (isset($_SESSION['user_id'])) {
-  $records = $conn->prepare('SELECT id, email, password FROM users WHERE id=:id');
-  $records->bindParam(':id', $_SESSION['user_id']);
-  $records->execute();
-  $results = $records->fetch(PDO::FETCH_ASSOC);
-
-  $user= null;
-
-  if(count($results)>0){
-    $user = $results;
-  }
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,15 +26,10 @@ if (isset($_SESSION['user_id'])) {
 			</div>
 
 			<div class="enlaces">
-				<a href=""><?php if (!empty($user)): ?></a>	
-				<a href=""><br>Welcome.<?= $user['email']?></a> 				
-				<a href=""><br>you are Successfully logged in</a> 
-  				<a href="cierre.php">Cerrar sesion</a>
-  				<?php else: ?>
-    			<?php endif?>
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
 				<a href="login.php">Cuenta</a>
+
 			</div>
 		</div>
 
