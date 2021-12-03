@@ -1,7 +1,8 @@
 <?php
+
 require 'conexion.php';
 
-$message='';
+$message = '';
 
 if (!empty($_POST['email']) && !empty($_POST['password'])) {
   $sql = "INSERT INTO users(email, password) VALUES (:email, :password)";
@@ -38,7 +39,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 <body class="bg-dark">
 
 <?php if (!empty($message)): ?>
-  <p> <script> alert('Successfully created new user') </script> </p>
+  <p> <script> alert($message) </script> </p>
   <?php endif ?>
 
 
@@ -112,7 +113,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
                           <td ><span class="col-md-12">
 
 
-                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+                            <INPUT required TYPE="num_document" NAME="num" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 
 
                       <TR>

@@ -43,15 +43,16 @@ if (isset($_SESSION['user_id'])) {
 			</div>
 
 			<div class="enlaces">
-				<a href=""><?php if (!empty($user)): ?></a>	
-				<a href=""><br>Welcome.<?= $user['email']?></a> 				
-				<a href=""><br>you are Successfully logged in</a> 
-  				<a href="cierre.php">Cerrar sesion</a>
+				<a><?php if (!empty($user)): ?></a>	
+				<a><br>Welcome.<?= $user['email']; ?></a> 				
+				<a><br>you are Successfully logged in</a> 
+  				<a href="desconectar.php">Cerrar sesion</a>
   				<?php else: ?>
     			<?php endif?>
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
 				<a href="login.php">Cuenta</a>
+				
 			</div>
 		</div>
 

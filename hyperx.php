@@ -14,7 +14,7 @@
 <body>
 
 <?php require("template/cabecera.php") ?>
-
+<?php require 'partials/header.php' ?>
 
 <!--Banner animado-->
   <section id="bannera">
