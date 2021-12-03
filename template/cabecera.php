@@ -44,9 +44,8 @@ if (isset($_SESSION['user_id'])) {
 
 			<div class="enlaces">
 				<a href=""><?php if (!empty($user)): ?></a>	
-				<a href=""><br>Welcome.<?= $user['email']?></a> 				
 				<a href=""><br>you are Successfully logged in</a> 
-  				<a href="cierre.php">Cerrar sesion</a>
+  				<a href="login.php">Cerrar sesion</a>
   				<?php else: ?>
     			<?php endif?>
 				<a href="index.php">Inicio</a>
