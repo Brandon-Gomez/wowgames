@@ -14,7 +14,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
 if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
   $_SESSION['user_id']=$results['id'];
-  header('Locationn: /php-login');
+  header('Location:index.php');
   }else{
     $message = 'Sorry, those credentials do not match';
   }
