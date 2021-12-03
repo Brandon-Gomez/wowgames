@@ -23,7 +23,7 @@
 <body>
 
 <?php include("template/cabecera.php")?>
-<?php require 'partials/header.php' ?>
+	
 
 <div class="banner">
 	</div>

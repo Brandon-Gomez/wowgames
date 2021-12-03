@@ -5,6 +5,6 @@ session_unset();
 
 session_destroy();
 
-header('Location: /../WowGames');
+header('Location: /php-login');
 
 ?>

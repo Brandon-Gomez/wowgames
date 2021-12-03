@@ -2,10 +2,6 @@
 
 session_start();
 
-if (isset($_SESSION['user_id'])) {
-  header ('Location:/../wowgames');
-}
-
 require 'conexion.php';
 
 if (!empty($_POST['email']) && !empty($_POST['password'])) {
@@ -18,7 +14,7 @@ if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
 if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
   $_SESSION['user_id']=$results['id'];
-  header("Location: /../WowGames");
+  header('Locationn: /php-login');
   }else{
     $message = 'Sorry, those credentials do not match';
   }
@@ -93,11 +89,10 @@ if (count($results) > 0 && password_verify($_POST['password'], $results['passwor
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
                     <h1 class="fw-bold mb-4">Bienvenido de vuelta</h1>
-                    
-                    <form class="mb-5" method="POST">
+                    <form class="mb-5" action="login.php" method="POST">
                         <div class="form-group mb-4">
                           <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
-                          <input type="text" name="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+                          <input type="email" name="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
                         </div>
                         <div class="form-group mb-4">
                           <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
