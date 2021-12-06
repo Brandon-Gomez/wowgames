@@ -1,3 +1,12 @@
+<?php
+
+require 'conexion.php';
+
+    $sql = "SELECT * FROM productos";
+
+    $resultado = $conn->query( $sql );
+     
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -31,44 +40,55 @@
 		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA TI</h3>
 	   </div>
       
-    
+    <?php
+	
+	while( $datos = $resultado->fetch_assoc() ){
+
+
+	?>
 	   <div class="content">
 	   <div class="productos">
-		<h3>TECLADO PRO</h3><br><br>
+		<h3>
+			<?= $datos['nombre'] ?>
+			
+		</h3><br><br>
 		<img src="../wowgames/img/logitech/nuevo.jpg"><br><br><br>
 		<h3>Edición League of Legends</h3><br>
-		<p>$505.000</p><br>
+		<p>$ <?= $datos['precio'] ?></p><br>
 		<button class="button-add">AGREGAR AL CARRITO</button>
 
-	</div> 
+		</div> 
 
+		<?php
+	}
 		
-		<div class="productos">
-		<h3>G213 PRODIGY</h3><br><br>
-		<img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br>
-		<h3>Teclado para juegos RGB</h3><br>
-		<p>$225.000</p><br>
-		<button class="button-add">AGREGAR AL CARRITO</button>
-		</div>
-
-		
-		<div class="productos">
-        <h3>G513 CARBON</h3><br>
-		<img src="../wowgames/img/logitech/nuevo3.jpg"><br><br><br>
-		<h3>TECLADO MECÁNICO RGB PARA JUEGOS</h3><br>
-		<p>$449.000</p><br>
-		<button class="button-add">AGREGAR AL CARRITO</button>
-		</div><br>
-
-
-
-		<div class="productos">
-			<h3>MK345 Comfort Wireless Keyboard and Mouse Combo</h3>
-			<img src="../wowgames/img/logitech/pro6.jpg"><br><br>
-			<h3>Cómoda combinación inalámbrica con reposamanos.</h3><br>
-			<p>$140.000</p><br>
-			<button class="button-add">AGREGAR AL CARRITO</button>
-		</div>
+		?>
+		<!-- <div class="productos"> -->
+		<!-- <h3>G213 PRODIGY</h3><br><br> -->
+		<!-- <img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br> -->
+		<!-- <h3>Teclado para juegos RGB</h3><br> -->
+		<!-- <p>$225.000</p><br> -->
+		<!-- <button class="button-add">AGREGAR AL CARRITO</button> -->
+		<!-- </div> -->
+<!--  -->
+		<!--  -->
+		<!-- <div class="productos"> -->
+        <!-- <h3>G513 CARBON</h3><br> -->
+		<!-- <img src="../wowgames/img/logitech/nuevo3.jpg"><br><br><br> -->
+		<!-- <h3>TECLADO MECÁNICO RGB PARA JUEGOS</h3><br> -->
+		<!-- <p>$449.000</p><br> -->
+		<!-- <button class="button-add">AGREGAR AL CARRITO</button> -->
+		<!-- </div><br> -->
+<!--  -->
+<!--  -->
+<!--  -->
+		<!-- <div class="productos"> -->
+			<!-- <h3>MK345 Comfort Wireless Keyboard and Mouse Combo</h3> -->
+			<!-- <img src="../wowgames/img/logitech/pro6.jpg"><br><br> -->
+			<!-- <h3>Cómoda combinación inalámbrica con reposamanos.</h3><br> -->
+			<!-- <p>$140.000</p><br> -->
+			<!-- <button class="button-add">AGREGAR AL CARRITO</button> -->
+		<!-- </div> -->
 
 		
 
