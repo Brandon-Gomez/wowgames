@@ -70,23 +70,18 @@ include'global/conexion.php';
                     <h1 class="fw-bold mb-4">Registrate</h1>
                     <FORM class="mb-5" METHOD=POST>
 
-                      <TABLE class="m-auto">
+                      <TABLE class="m-left">
                       
                       <TR>
                          <TD><span>Nombre</span></TD>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                          <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
 
 
-=======
-                         <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                         <TD> <INPUT required TYPE="text" NAME="nombre" class="col-md-12 bg-ligt-x border-0 w-100" MAXLENGTH=18 placeholder="Ingrese su nombre">
->>>>>>> parent of 49ea049 (arreglos)
+                         
+
                       <TR>
                          <TD>  
                           <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.D</button>
@@ -98,19 +93,14 @@ include'global/conexion.php';
                           </ul>
                           </TD>
                           <td ><span class="col-md-12">
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                             <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 
 
-=======
-                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
->>>>>>> parent of 49ea049 (arreglos)
+                           
+
                       <TR>
                     
                       
@@ -160,82 +150,58 @@ include'global/conexion.php';
                         
                       <TR>
                         <TD>Direccion 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                         <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
 
 
-=======
-                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
->>>>>>> parent of 49ea049 (arreglos)
+
+                        
+
                       <TR>
 
                         <TR>
                           <TD>Fecha Nacimiento
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                           <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
 
 
-=======
-                          <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                          <TD><INPUT required TYPE="date" NAME="f_nacimiento"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese">
->>>>>>> parent of 49ea049 (arreglos)
+
+                         
+
                         </TR>
 
                         <TR>
                             <TD>Teléfono           
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                               <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
 
 
-=======
-                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
-
->>>>>>> parent of 49ea049 (arreglos)
                         </TR>
 
                          <TR>
                         <TD><span>Correo electronico</span></TD>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
                         <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+                        
 
 
-=======
-                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
->>>>>>> parent of 49ea049 (arreglos)
-=======
-                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
->>>>>>> parent of 49ea049 (arreglos)
+                       
+
                       <TR>
                       </TABLE>
                       <button type="submit" class="btn btn-primary w-100 mt-3" >Registrarse</button>
                       </FORM>
-                      <p class="font-weight-bold text-center text-muted">O registrate con</p>
-                      <div class="d-flex justify-content-around">
-                        <button type="submit" class="btn btn-outline-light flex-grow-1 me-2"><i class="fab fa-google lead me-2"></i>Google</button>
-                        <button type="submit" class="btn btn-outline-light flex-grow-1 ms-2"><i class="fab fa-facebook-f lead me-2"></i>Facebook</button>
-                      </div>
+                    
                 </div>
                 <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
                     <p class="d-inline-block mb-0">¿Tienes una cuenta?</p> <a href="login.php" class="text-light font-weight-bold text-decoration-none"> Inicia sesion</a>

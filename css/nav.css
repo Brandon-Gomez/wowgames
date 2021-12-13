@@ -8,7 +8,7 @@
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .menu {
-	background: transparent;
+	background: rgba(161, 161, 161, 0.246);
 	padding: 5px 0;
 }
 
@@ -384,7 +384,7 @@ a{
 
 
 footer{
-	margin-top: 0px;
+	margin-top: 100px;
    position: absolute;
    left: 0;
    right: 0;
@@ -397,7 +397,7 @@ footer{
    width: auto;
 }
 .footer-content{
-   display:flex;
+   display: block;
    align-items: center;
    justify-content:center;
    flex-direction: column;
@@ -463,5 +463,5 @@ color: aqua;
 .imgfoot{
    display: flex;
    margin: auto;
-   width: 170px;
+   width: 5px;
 }

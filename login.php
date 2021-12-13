@@ -84,11 +84,7 @@ include'global/conexion.php';
                       
                         <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
                       </form>
-                      <p class="font-weight-bold text-center text-muted">O inicia sesión con</p>
-                      <div class="d-flex justify-content-around">
-                        <button type="submit" class="btn btn-outline-light flex-grow-1 me-2"><i class="fab fa-google lead me-2"></i>Google</button>
-                        <button type="submit" class="btn btn-outline-light flex-grow-1 ms-2"><i class="fab fa-facebook-f lead me-2"></i>Facebook</button>
-                      </div>
+                   
                 </div>
                 <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
                     <p class="d-inline-block mb-0">¿No tienes una cuenta?</p> <a href="register.php" class="text-light font-weight-bold text-decoration-none"> Registrate</a>

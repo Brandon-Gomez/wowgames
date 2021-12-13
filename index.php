@@ -7,6 +7,7 @@
   <title>WOWGAMES</title>
   <link href = "https: //fonts.googleapis.com/css2? family = Mohave: wght @ 300 & display = swap "rel =" stylesheet ">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/nav.css">
 
 </head>
 <body>
@@ -20,13 +21,13 @@
   </section>
   <!--Slider-->
 <div id="slider">
-  <div class="boton">
-    <li><img loading="lazy" src="img/logitech/banner.jpg" alt=""></li>
+  <!-- <div class="boton"> -->
+    <!--<li><img loading="lazy" src="img/logitech/banner.jpg" alt=""></li>
     <li><img loading="lazy" src="img/razer/banner.png" alt=""></li>
-    <li><img loading="lazy" src="img/redragon/bannern.jpg" alt=""></li>
-  </ul>
-</div>
-<!--Titulo-->
+    <li><img loading="lazy" src="img/redragon/bannern.jpg" alt=""></li>-->
+  <!-- </ul> -->
+<!-- </div> 
+<Titulo
 <div id="titulo">
   <center>
   <h1>
@@ -42,8 +43,8 @@
     </figure>
     <div class="contenido">
       <h3>HyperX</h3>
-      <p>Ventaja decisiva, siempre en el moejor momento.</p>
-      <a href="#">Ir a seccion</a>
+      <p>Ventaja decisiva, siempre en el mejor momento.</p>
+      <a href="login.php">Ir a seccion</a>
     </div>
   </div>
   <div class="card">
