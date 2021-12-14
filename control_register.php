@@ -4,7 +4,7 @@ require 'conexion.php';
 
 
 if (isset($_POST['register'])) {    
-    if (strlen($_POST['email']) >= 1 && strlen($_POST['password']) >=1 ) {
+    // if (strlen($_POST['email']) >= 1 && strlen($_POST['password']) >=1 ) {
     $nombre = trim($_POST['nombre']);
     $d_identidad = trim($_POST['d_identidad']);
     $direccion = trim($_POST['direccion']);
@@ -15,7 +15,7 @@ if (isset($_POST['register'])) {
     $password = trim($_POST['password']);
     
     //registrar nuevo
-    $consulta = "INSERT INTO usuarios(nombre, d_identidad, ciudad, email, direccion, f_nacimiento, telefono, password) VALUES ($nombre,'$d_identidad','$ciudad','$email','$direccion','$f_nacimiento','$telefono','$password')";
+    $consulta = "INSERT INTO usuarios(nombre, d_identidad, ciudad, email, direccion, f_nacimiento, telefono, password) VALUES ('$nombre','$d_identidad','$ciudad','$email','$direccion','$f_nacimiento','$telefono','$password')";
     $resultado = mysqli_query($con,$consulta);
 
     //Entrar a usuario
@@ -44,6 +44,6 @@ if (isset($_POST['register'])) {
 //     }else {
 //         header("location:register.php?error=si");
 //    }
-    }
+    // }
 }
 ?>

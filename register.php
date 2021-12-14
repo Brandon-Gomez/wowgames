@@ -65,7 +65,7 @@ include'conexion.php';
             </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 ">
                     <h1 class="fw-bold mb-4">Registrate</h1>
-                    <FORM class="mb-5" METHOD=POST action="control_register.php">
+                    <FORM class="mb-5" METHOD="POST" action="control_register.php">
 
                       <TABLE class="m-left">
                       
