@@ -23,6 +23,14 @@
   <div id="slider">
   <div class="boton">
     <a href="#titulo">PRODUCTOS</a>
+  </div>
+  <ul>
+    <li><img loading="lazy" src="img/razer/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/hyperx/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/logitech/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/redragon/bannern.jpg" alt=""></li>
+  </ul>
+</div>
 
 <!--Titulo-->
 <div id="titulo">
