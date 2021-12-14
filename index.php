@@ -12,6 +12,7 @@
 </head>
 <body>
 <?php require("template/cabecera.php") ?>
+<div class="responsive">
 <!--Banner animado-->
   <section id="bannera">
     <div class="banner-content">
@@ -22,7 +23,7 @@
   <!--Slider-->
   <div id="slider">
   <div class="boton">
-    <a href="#titulo">PRODUCTOS</a>
+    <a href="#titulo">MARCAS</a>
   </div>
   <ul>
     <li><img loading="lazy" src="img/razer/banner.jpg" alt=""></li>
@@ -86,7 +87,7 @@
 <div class="boton2">
   <a href="#">Volver arriba</a>
 </div>
-
+</div>
 
 <?php require ("template/pie.php")?>
 <script src="https://kit.fontawesome.com/d0dc7f6b6a.js" crossorigin="anonymous"></script>
