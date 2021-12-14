@@ -25,10 +25,10 @@
     <a href="#titulo">PRODUCTOS</a>
   </div>
   <ul>
-    <li><img loading="lazy" src="img/hyperx/slider.jpg" alt=""></li>
-    <li><img loading="lazy" src="img/hyperx/slider2.jpg" alt=""></li>
-    <li><img loading="lazy" src="img/hyperx/slider3.jpg" alt=""></li>
-    <li><img loading="lazy" src="img/hyperx/slider4.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/razer/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/hyperx/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/logitech/banner.jpg" alt=""></li>
+    <li><img loading="lazy" src="img/redragon/bannern.jpg" alt=""></li>
   </ul>
 </div>
 <!--Titulo-->
