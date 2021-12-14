@@ -1,6 +1,6 @@
 <?php
     require "conexion.php";
-    $usuario = $_POST['email'];
+    $email = $_POST['email'];
     $password = $con->real_escape_string($_POST['password']);
 
     $sql = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
@@ -21,7 +21,7 @@
         $_SESSION["f_nacimiento"] = $usuario['f_nacimiento'];
         $_SESSION["telefono"] = $usuario['telefono'];
         $_SESSION["password"] = $usuario['password'];
-
+        header("index.php");
     }else {
         header("location:register.php?error=si");
     }
