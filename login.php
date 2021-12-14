@@ -69,7 +69,7 @@ include'conexion.php';
                 </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
                     <h1 class="fw-bold mb-4">Bienvenido de vuelta</h1>
-                    <form class="mb-5">
+                    <form class="mb-5" method="POST" action="control_login.php">
                         <div class="form-group mb-4">
                           <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
                           <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
