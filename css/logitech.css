@@ -19,15 +19,15 @@
 
  @keyframes banner{
 	  0%, 20%{
-		background-image: url(../logitech/imagenes/banner5.jpg)
+		background-image: url(../img/banner5.jpg)
 	}  
 
 	  50%, 75%{
-		background-image: url(../logitech/imagenes/banner.jpg)
+		background-image: url(../img/banner.jpg)
 	}    
 
 	 75%, 100%{
-		background-image: url(../logitech/imagenes/banner4.jpg)
+		background-image: url(../img/banner4.jpg)
 	}   
 	
 } 
