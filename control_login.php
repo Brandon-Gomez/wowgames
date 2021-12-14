@@ -20,9 +20,9 @@
         $_SESSION["f_nacimiento"] = $usuario['f_nacimiento'];
         $_SESSION["telefono"] = $usuario['telefono'];
         $_SESSION["password"] = $usuario['password'];
-        header("index.php");
+        header("location:index.php");
     }else {
-        header("location:register.php?error=si");
+        header("location:login.php?error=si");
     }
 
 

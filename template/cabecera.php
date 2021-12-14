@@ -24,6 +24,7 @@
 				<a href="index.php">Inicio</a>
 				<a href="#">Carrito</a>
 				<a href="login.php">Cuenta</a>
+				<a href="cerrar.php">Salir</a>
 
 			</div>
 		</div>
