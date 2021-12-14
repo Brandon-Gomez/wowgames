@@ -1,3 +1,10 @@
+<?php
+session_start();
+ if( @$_SESSION["autentificado"] == "1")    
+  header("location:index.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,11 +70,11 @@
                     <form class="mb-5" method="POST" action="control_login.php">
                         <div class="form-group mb-4">
                           <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
-                          <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
+                          <input type="email" name="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">
                         </div>
                         <div class="form-group mb-4">
                           <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
-                          <input type="password" class="form-control bg-dark-x border-0 mb-2" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
+                          <input type="password" name="password" class="form-control bg-dark-x border-0 mb-2" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
                           <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Has olvidado la contraseña?</a>
                         </div>
 
