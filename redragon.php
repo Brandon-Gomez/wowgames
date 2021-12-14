@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>LOGITECH</title>
+	<title>RED DRAGON</title>
 
 	<script src="https://kit.fontawesome.com/11614eb144.js" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
