@@ -1,7 +1,8 @@
 <?php
-
+session_start();
 include'conexion.php';
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,7 +65,7 @@ include'conexion.php';
             </div>
                 <div class="px-lg-5 py-lg-4 p-4 w-100 ">
                     <h1 class="fw-bold mb-4">Registrate</h1>
-                    <FORM class="mb-5" METHOD=POST>
+                    <FORM class="mb-5" METHOD=POST action="control_register.php">
 
                       <TABLE class="m-left">
                       
@@ -79,20 +80,20 @@ include'conexion.php';
                          
 
                       <TR>
-                         <TD>  
-                          <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.D</button>
+                         <TD>  <span>Numero documento</span>
+                          <!-- <button class="btn btn-outline-secondary dropdown-toggle col-md-12 " type="button" data-bs-toggle="dropdown" aria-expanded="false">T.D</button>
                           <ul class="dropdown-menu">
                             <li><option class="dropdown-item"><span>Tarjeta de indetidad</span></option></li>
                             <li><option class="dropdown-item"><span>Contraseña</span></option></li>
                             <li><option class="dropdown-item"><span>Cedula</span></option></li>
 
-                          </ul>
+                          </ul> -->
                           </TD>
                           <td ><span class="col-md-12">
 
 
 
-                            <INPUT required TYPE="num_document" NAME="id" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
+                            <INPUT required TYPE="d_identidad" NAME="d_identidad" class="col-md-12 me-1 bg-ligt-x border-0 w-100" MAXLENGTH=18  placeholder="Ingrese Nº documento "></span></td>                      
 
 
                            
@@ -106,8 +107,8 @@ include'conexion.php';
 
                          
 
-                          <TD> 
-                                        <select class="form-control bg-light border-0" id="inputCiudadLine2">
+                          <TD> <INPUT required TYPE="text" NAME="ciudad" id="ciudad"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su ciudad">
+                                        <!-- <select class="form-control bg-light border-0" id="inputCiudadLine2">
                                             <option value=""> Seleccione ciudad</option>
                                             <option value="Arauca">Arauca</option>
                                             <option value="Armenia">Armenia</option>
@@ -141,7 +142,7 @@ include'conexion.php';
                                             <option value="Valledupar">Valledupar</option>
                                             <option value="Villavicencio">Villavicencio</option>
                                             <option value="Yopal">Yopal</option>
-                                        </select>            
+                                        </select>             -->
                       <TR>
                         
                       <TR>
@@ -149,7 +150,7 @@ include'conexion.php';
 
 
 
-                        <TD><INPUT required TYPE="text" NAME="direccion" id="cityinput"  MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
+                        <TD><INPUT required TYPE="text" NAME="direccion" MAXLENGTH=20 class="col-md-12 me-1 bg-ligt-x border-0 w-100" placeholder="Ingrese su residencia">            
 
 
 
@@ -175,7 +176,7 @@ include'conexion.php';
 
 
 
-                              <TD><input required type="number" name="telefono" id="telinput"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
+                              <TD><input required type="number" name="telefono" id="telefono"  class="col-md-12 bg-ligt-x border-0 w-100" maxlength="19" placeholder="Ingrese numero">                      
 
 
 
@@ -187,15 +188,22 @@ include'conexion.php';
 
 
 
-                        <td><input required type="email" name="correo" id="" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
+                        <td><input required type="email" name="email" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su email" style="margin-left: 1px;"></td>
                         
 
 
                        
 
                       <TR>
+                      <TR>
+                      <TD><span>Contraseña</span></TD>
+                      <td><input required type="password" name="password" class="col-md-12 bg-ligt-x border-0 w-100" placeholder="Ingrese su contraseña" style="margin-left: 1px;"></td>
+
+                      </TR>
+
+                        
                       </TABLE>
-                      <button type="submit" class="btn btn-primary w-100 mt-3" >Registrarse</button>
+                      <button type="submit" class="btn btn-primary w-100 mt-3" name="register" >Registrarse</button>
                       </FORM>
                     
                 </div>
