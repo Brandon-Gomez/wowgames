@@ -1,3 +1,4 @@
+<?php session_start(); ?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,8 +23,12 @@
 
 			<div class="enlaces">
 				<a href="index.php">Inicio</a>
-				<a href="#">Carrito</a>
-				<a href="login.php">Cuenta</a>
+				<!-- <a href="login.php">Cuenta</a> -->
+				<a href="" name="nombre" value=""><?php if ($_SESSION){
+					echo $_SESSION['nombre'];
+				} else {
+					echo "Registrar";
+				} ?></a>
 				<a href="cerrar.php">Salir</a>
 
 			</div>
@@ -36,7 +41,7 @@
 					<h3 class="subtitulo">Categorias</h3>
 
 					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
-					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
+					<a href="#" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
 					<a href="redragon.php" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
 					

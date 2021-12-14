@@ -1,3 +1,6 @@
+<?php
+require"seguridad.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,8 +29,13 @@
 
 			<div class="enlaces">
 				<a href="index.php">Inicio</a>
-				<a href="#">Carrito</a>
-				<a href="login.php">Cuenta</a>
+				<a href="" name="nombre" value=""><?php if ($_SESSION){
+					echo $_SESSION['nombre'];
+				} else {
+					echo "Registrar";
+				} ?></a>
+				<a href="cerrar.php">Salir</a>
+				
 
 			</div>
 		</div>
