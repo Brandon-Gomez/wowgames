@@ -37,7 +37,7 @@
 					<a href="logitech.php" data-categoria="logitech">Logitech<i class="fas fa-angle-right"></i></a>
 					<a href="hyperx.php" data-categoria="hyperx">Hyperx<i class="fas fa-angle-right"></i></a>
 					<a href="#" data-categoria="razer">Razer<i class="fas fa-angle-right"></i></a>
-					<a href="#" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
+					<a href="redragon.php" data-categoria="redrago">Redragon<i class="fas fa-angle-right"></i></a>
 					
 				</div>
 

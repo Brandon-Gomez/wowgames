@@ -12,7 +12,6 @@
         $usuario = $res->fetch_assoc();
 
         $_SESSION["autentificado"] = "1";
-        $_SESSION["id"] = $usuario['id'];
         $_SESSION["nombre"] = $usuario['nombre'];
         $_SESSION["d_identidad"] = $usuario['d_identidad'];
         $_SESSION["ciudad"] = $usuario['ciudad'];
