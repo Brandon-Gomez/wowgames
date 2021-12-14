@@ -33,8 +33,19 @@
 	   <div class="nav">
 		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA VOS</h3>
 	   </div>
-      
+
+
 	   <div class="content">
+	   <div class="productos">
+		<h3>TECLADO PRO</h3><br><br>
+		<img src="../wowgames/img/logitech/nuevo.jpg"><br><br><br>
+		<h3>Edición League of Legends</h3><br>
+		<p>500.000$</p><br>
+		<button class="button-add">AGREGAR AL CARRITO</button>
+
+		</div> 
+
+      
 	   <div class="productos"> 
 		 <h3>G213 PRODIGY</h3><br><br> 
 		 <img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br> 

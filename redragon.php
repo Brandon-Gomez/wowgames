@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
-    <link rel="stylesheet" href="css/logitech.css">
+    <link rel="stylesheet" href="css/redragon.css">
 	
 </head>
 </head>
@@ -35,6 +35,18 @@
 	   </div>
       
     
+
+	   <div class="content">
+	   <div class="productos"> 
+		 <h3>TECLADO PRO</h3><br><br> 
+		 <img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br> 
+		 <h3>Edición League of Legends</h3><br> 
+		 <p>$500.000</p><br> 
+		 <button class="button-add">AGREGAR AL CARRITO</button> 
+		 </div> 
+
+
+
 	   <div class="productos"> 
 		 <h3>G213 PRODIGY</h3><br><br> 
 		 <img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br> 
@@ -56,7 +68,7 @@
 			 <h3>MK345 Comfort Wireless Keyboard and Mouse Combo</h3> 
 			 <img src="../wowgames/img/logitech/pro6.jpg"><br><br> 
 			 <h3>Cómoda combinación inalámbrica con reposamanos.</h3><br> 
-			 <p>$140.000</p><br> -->
+			 <p>$140.000</p><br> 
 			 <button class="button-add">AGREGAR AL CARRITO</button> 
 		 </div> 
 
