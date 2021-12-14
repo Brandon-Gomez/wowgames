@@ -1,6 +1,10 @@
 /* ------------------------- */
 /* Enlaces del NAV */
 /* ------------------------- */
+
+body {
+	font-family: Arial, sans-serif!important;
+}
 .menu {
 	background: #1d252e;
 	padding: 5px 0;
