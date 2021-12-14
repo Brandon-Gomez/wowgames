@@ -1,6 +1,6 @@
 <?php
     require "conexion.php";
-    $usuario = $_POST['email'];
+    $email = $_POST['email'];
     $password = $con->real_escape_string($_POST['password']);
 
     $sql = "SELECT * FROM usuarios WHERE email = '$email' AND password = '$password'";
@@ -12,7 +12,6 @@
         $usuario = $res->fetch_assoc();
 
         $_SESSION["autentificado"] = "1";
-        $_SESSION["id"] = $usuario['id'];
         $_SESSION["nombre"] = $usuario['nombre'];
         $_SESSION["d_identidad"] = $usuario['d_identidad'];
         $_SESSION["ciudad"] = $usuario['ciudad'];
@@ -21,7 +20,7 @@
         $_SESSION["f_nacimiento"] = $usuario['f_nacimiento'];
         $_SESSION["telefono"] = $usuario['telefono'];
         $_SESSION["password"] = $usuario['password'];
-
+        header("index.php");
     }else {
         header("location:register.php?error=si");
     }
