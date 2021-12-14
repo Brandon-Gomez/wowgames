@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>LOGITECH</title>
+	<title>RED DRAGON</title>
 
 	<script src="https://kit.fontawesome.com/11614eb144.js" crossorigin="anonymous"></script>
     <!-- Required meta tags -->
@@ -34,7 +34,7 @@
 		<h3 style="text-align: center;">DESCUBRÍ NUESTRO UNIVERSO DE PRODUCTOS RECOMENDADOS PARA VOS</h3>
 	   </div>
       
-	   <div class="content">
+    
 	   <div class="productos"> 
 		 <h3>G213 PRODIGY</h3><br><br> 
 		 <img src="../wowgames/img/logitech/nuevo2.jpg"><br><br><br> 
@@ -56,7 +56,7 @@
 			 <h3>MK345 Comfort Wireless Keyboard and Mouse Combo</h3> 
 			 <img src="../wowgames/img/logitech/pro6.jpg"><br><br> 
 			 <h3>Cómoda combinación inalámbrica con reposamanos.</h3><br> 
-			 <p>$140.000</p><br> 
+			 <p>$140.000</p><br> -->
 			 <button class="button-add">AGREGAR AL CARRITO</button> 
 		 </div> 
 
