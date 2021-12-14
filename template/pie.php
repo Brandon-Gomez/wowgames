@@ -12,11 +12,12 @@
 <footer>
         <div class="footer-content">
           
-         <!-- <img src="img/wowgames_logo.svg" alt="" class="imgfoot" > -->
           <ul class="socials">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <!-- <img src="img/wowgames_logo.svg" alt="" class="imgfoot" > -->
+
           </ul>
         </div>
         <div class="footer-bottom">

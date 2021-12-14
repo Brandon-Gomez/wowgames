@@ -1,11 +1,7 @@
 <?php
 
-include'global/config.php';
-include'global/conexion.php';
-
+include'conexion.php';
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
