@@ -91,7 +91,7 @@
 </div>
 
 
-<?php require ("template/pie.php")?>
+<?php require("template/pie.php")?>
 
 </body>
 <script src="https://kit.fontawesome.com/d0dc7f6b6a.js" crossorigin="anonymous"></script>
