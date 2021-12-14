@@ -6,17 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="nav.css">
+=======
+    <link rel="stylesheet" href="css/nav.css">
+>>>>>>> 5cdd334ee4ff0c22dc197cf37d818ef136c16bc4
 </head>
 <body>
 <footer>
         <div class="footer-content">
+         <img src="img/wowgames_logo.svg" alt="" class="imgfoot" > 
           
           <ul class="socials">
+
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<<<<<<< HEAD
          <img src="./img/wowgames_logo.svg" alt="" class="imgfoot" > 
+=======
+>>>>>>> 5cdd334ee4ff0c22dc197cf37d818ef136c16bc4
 
           </ul>
         </div>

@@ -463,5 +463,6 @@ color: aqua!important;
 .imgfoot{
    display: flex!important;
    margin: auto!important;
-   width: 50px!important;
+   width: 200px!important;
+   padding-bottom: 1rem;
 }
