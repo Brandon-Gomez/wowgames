@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contenedor {
+	margin: 5px;
+	width: 90%;
+	max-width: 1200px;
+}
+
+main article {
+	background: rgb(253, 255, 254);
+	margin: 20px;
+	padding: 20px;
+	height: 1000px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------- */
+/* FOOTER */
+/* ------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

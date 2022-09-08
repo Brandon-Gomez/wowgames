@@ -1,0 +1,69 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+ }
+
+body {
+    font-weight: 300 !important;
+    color: var(--light) !important;
+ }
+
+ .bg-dark {
+     background-color: var(--dark) !important;
+ }
+
+ .bg-dark-x{
+    background-color: var(--dark-x);
+}
+
+.form-control{
+    line-height: initial;
+}
+
+.text-light {
+    font-weight: 600;
+}
+
+.img-fluid{
+    height: 60px;
+}
+
+.img-1 {
+    background-image: url('../img/logitech/EnJg-JxXUAU1YME.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.img-2 {
+    background-image: url('../img/hyperx/hx-family-mouse-pulsefire-raid-lg.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.img-3 {
+    background-image: url('../img/razer/Actualidad_383225445_130486350_1200x800.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+td{
+    padding: 0.45rem;
+}
+
+
+option{
+    cursor: pointer;
+}
+.form-control{
+    border-radius: 3px;
+}
+
+
+/* table{
+    margin-top: 100px;
+} */
+input{
+    border-radius: 3px;
+    min-height: 2rem;
+    justify-content: end;
+
+}
